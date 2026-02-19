@@ -1,7 +1,7 @@
 # NES-LTER Zooplankton Size Spectra
 
 **Author:** Alexandra C. Cabanelas  
-**Project:** LTER Synthesis Working Group: Pelagic Community Structure
+**Project:** LTER Synthesis Working Group: Pelagic Community Structure  
 **LTER Site:** Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER)  
 **Created:** August 2024 | **Last updated:** February 2026
 
