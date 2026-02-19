@@ -115,17 +115,17 @@ Individual body weights are estimated using published length-weight (L-W) regres
 log10(W) = a + b * log10(L)
 ```
 
-where *L* is mean length (um) and *W* is individual weight (ug). Regressions return: carbon weight (C), dry weight (DW), or wet weight (WW) depending what was available in the literature. Where no regression exists, published mean weights are used as gap-fillers.
+where *L* is mean length (&micro;m) and *W* is individual weight (&micro;g). Regressions return: carbon weight (C), dry weight (DW), or wet weight (WW) depending what was available in the literature. Where no regression exists, published mean weights are used as gap-fillers.
 
 ### Weight conversions
-- **WW -> DW:** multiply by 0.25 (DW = 25% of WW)
+- **WW -> DW:** multiply by 0.20 (DW = 20% of WW)
 - **DW -> C:** multiply by taxa-specific %C/DW where available; fallback = 40%
 
 ### ESD calculation
 Each organism is approximated as a sphere. ESD is calculated from weight via:
 
 ```
-DW ->  WW (/ 0.20)  ->  volume (/ 1.05 g/cm<sup>3)  ->  ESD = (6V/pi)^(1/3)
+DW ->  WW  ->  volume  ->  ESD 
 ```
 
 ### NBSS
@@ -139,7 +139,7 @@ log10(B_norm) ~ log10(ESD_midpoint)
 
 ## Notes
 
-- Net tows use 335 um mesh. Organisms < ~200 um are undersampled. Drop-off at the small end of the size spectrum is expected.
+- Net tows use 335 &micro;m mesh. Organisms < ~200 &micro;m are undersampled. Drop-off at the small end of the size spectrum is expected.
 
 ---
 
