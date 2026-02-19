@@ -1,0 +1,75 @@
+################################################################################
+## Script:  01_load_data.R
+## Project: NES-LTER Zooplankton Size Spectra (Pelagic Synthesis WG)
+## Author:  Alexandra C. Cabanelas
+## Created: August 2024  |  Updated: February 2026
+##
+## Purpose: Load all raw data files required.  
+##          Outputs are saved as .rds for use in downstream scripts.
+##
+## Inputs (all in data/raw/):
+##   - nes-lter-zp-abundance-335um-unstaged10m2.csv  (EDI: knb-lter-nes.25.2)
+##   - nes-lter-zp-abundance-335um-staged10m2.csv    (EDI: knb-lter-nes.25.2)
+##   - mean_lengths.csv
+##   - length_weight_regressions.csv
+##   - mean_weights.csv
+##   - dw_to_c_conversions.csv
+##
+## Outputs (saved to data/processed/):
+##   - 01_raw_data.rds   (named list of all loaded data frames)
+################################################################################
+
+source(here::here("scripts", "00_packages.R"))
+
+## ------------------------------------------ ##
+#            Data -----
+## ------------------------------------------ ##
+
+# --- Zooplankton abundance data (EDI: knb-lter-nes.25.2) ---
+# 335 um mesh bongo net; abundances in individuals per 10 m2
+
+zp <- read_csv(here("data", "raw", #v2 abundance package
+                    "nes-lter-zp-abundance-335um-unstaged10m2.csv"))
+
+zp_staged <- read_csv(here("data", "raw",
+                           "nes-lter-zp-abundance-335um-staged10m2.csv"))
+
+# --- Published mean body lengths (um) ---
+lengths <- read_csv(here("data", "raw", "mean_lengths.csv"))
+
+# --- Published length-weight regressions ---
+# Equation form: log10(W) = a + b * log10(L)
+LW_reg <- read_csv(here("data", "raw", "length_weight_regressions.csv"))
+
+# --- Published mean individual weights (ug) ---
+pub_weights <- read_csv(here("data", "raw", "mean_weights.csv"))
+
+# --- Dry weight to carbon conversion factors (% C per DW) ---
+DW_to_C_convert <- read_csv(here("data", "raw", "dw_to_c_conversions.csv"))
+
+## ------------------------------------------ ##
+#           Quick checks -----
+## ------------------------------------------ ##
+message("zp rows:           ", nrow(zp))                  #23460
+message("zp_staged rows:    ", nrow(zp_staged))           #2550
+message("lengths rows:      ", nrow(lengths))             #140
+message("LW_reg rows:       ", nrow(LW_reg))              #166
+message("pub_weights rows:  ", nrow(pub_weights))         #287
+message("DW_to_C rows:      ", nrow(DW_to_C_convert))     #132
+
+## ------------------------------------------ ##
+#           Save -----
+## ------------------------------------------ ##
+saveRDS(
+  list(
+    zp             = zp,
+    zp_staged      = zp_staged,
+    lengths        = lengths,
+    LW_reg         = LW_reg,
+    pub_weights    = pub_weights,
+    DW_to_C_convert = DW_to_C_convert
+  ),
+  here("data", "processed", "01_raw_data.rds")
+)
+
+message("01_load_data.R complete — saved to data/processed/01_raw_data.rds")
