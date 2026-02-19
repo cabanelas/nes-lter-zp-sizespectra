@@ -47,3 +47,12 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Ignore contents of data subfolders, but keep the folders
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+touch data/raw/.gitkeep
+touch data/processed/.gitkeep
