@@ -56,5 +56,4 @@ zp_lengths %>%
 
 # --- Save -------------------------------------------------------------------
 saveRDS(zp_lengths, here("data", "processed", "03_zp_lengths.rds"))
-
-message("✓ 03_lengths.R complete — saved to data/processed/03_zp_lengths.rds")
+message("03_lengths.R complete — saved to data/processed/03_zp_lengths.rds")

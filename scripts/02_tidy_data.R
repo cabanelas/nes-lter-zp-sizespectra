@@ -73,4 +73,4 @@ message("Unique cruises:          ", n_distinct(zp_merged$cruise))
 saveRDS(zp_merged, here("data", "processed", "02_zp_merged.rds"))
 saveRDS(lengths,   here("data", "processed", "02_lengths_clean.rds"))
 
-message("✓ 02_tidy_data.R complete — saved to data/processed/")
+message("02_tidy_data.R complete — saved to data/processed/")
