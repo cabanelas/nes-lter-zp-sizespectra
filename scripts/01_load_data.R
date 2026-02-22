@@ -7,7 +7,7 @@
 ## Purpose: Load all raw data files required.  
 ##          Outputs are saved as .rds for use in downstream scripts.
 ##
-## Inputs (all in data/raw/):
+## Inputs (in data/raw/):
 ##   - nes-lter-zp-abundance-335um-unstaged10m2.csv  (EDI: knb-lter-nes.25.2)
 ##   - nes-lter-zp-abundance-335um-staged10m2.csv    (EDI: knb-lter-nes.25.2)
 ##   - mean_lengths.csv
@@ -27,7 +27,6 @@ source(here::here("scripts", "00_packages.R"))
 
 # --- Zooplankton abundance data (EDI: knb-lter-nes.25.2) ---
 # 335 um mesh bongo net; abundances in individuals per 10 m2
-
 zp <- read_csv(here("data", "raw", #v2 abundance package
                     "nes-lter-zp-abundance-335um-unstaged10m2.csv"))
 
