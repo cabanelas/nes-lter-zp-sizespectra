@@ -16,29 +16,15 @@
 source(here::here("scripts", "00_packages.R"))
 
 zp_merged <- readRDS(here("data", "processed", "02_zp_merged.rds"))
-lengths   <- readRDS(here("data", "processed", "02_lengths_clean.rds"))
+lengths   <- readRDS(here("data", "processed", "02_lengths_clean.rds")) %>%
+  select(-ends_with(c("_source_primary", "_doi", "_location", 
+                      "_source_secondary", "_notes")))
 
 # --- Join lengths to zooplankton data ---------------------------------------
 zp_lengths <- zp_merged %>%
   left_join(lengths, by = c("taxa_name", "stage")) %>%
   select(-stage_code.y) %>%
   rename(stage_code = stage_code.x)
-
-# --- if Not_Staged length is missing, use Adult length ----------------------
-adult_lengths <- lengths %>%
-  filter(stage == "Adult")
-
-zp_lengths <- zp_lengths %>%
-  left_join(adult_lengths, by = "taxa_name", 
-            suffix = c("", "_adult")) %>%
-  mutate(
-    length_mean_um = ifelse(
-      stage == "Not_Staged" & is.na(length_mean_um),
-      length_mean_um_adult,
-      length_mean_um
-    )
-  ) %>%
-  select(-ends_with("_adult"))
 
 # --- Checks -----------------------------------------------------------------
 # taxa I was not able to find length data for
