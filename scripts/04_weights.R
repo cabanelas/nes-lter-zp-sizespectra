@@ -21,9 +21,13 @@ source(here::here("scripts", "00_packages.R"))
 
 zp_lengths      <- readRDS(here("data", "processed", "03_zp_lengths.rds"))
 raw             <- readRDS(here("data", "processed", "01_raw_data.rds"))
-LW_reg          <- raw$LW_reg
-pub_weights     <- raw$pub_weights
-DW_to_C_convert <- raw$DW_to_C_convert
+
+drop_cols <- c("_source_primary", "_doi", "_location", 
+               "_source_secondary", "_notes")
+
+LW_reg          <- raw$LW_reg          %>% select(-ends_with(drop_cols))
+pub_weights     <- raw$pub_weights     %>% select(-ends_with(drop_cols))
+DW_to_C_convert <- raw$DW_to_C_convert %>% select(-ends_with(drop_cols))
 
 ## --- 4.0 Examine L-W regression per taxa/stage -----------------------------
 # how many taxa/stage combos have multiple regressions?
