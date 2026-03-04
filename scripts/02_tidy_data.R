@@ -7,7 +7,7 @@
 ## Purpose: Tidy and merge zooplankton abundance data.
 ##          - Pivot staged abundance data from wide to long format
 ##          - Combine staged and unstaged data, avoiding double-counting
-##          - Remove fish and unidentified plankton
+##          - Remove fish, unidentified plankton, and Foraminifera
 ##
 ## Inputs:  data/processed/01_raw_data.rds
 ## Outputs: data/processed/02_zp_merged.rds
@@ -18,9 +18,11 @@ source(here::here("scripts", "00_packages.R"))
 raw <- readRDS(here("data", "processed", "01_raw_data.rds"))
 zp             <- raw$zp
 zp_staged      <- raw$zp_staged
-lengths        <- raw$lengths
 
-# --- Stage name mapping -----------------------------------------------------
+## ------------------------------------------ ##
+#            Stage name mapping -----
+## ------------------------------------------ ##
+# Maps column names in the staged data to clean stage labels
 stage_mapping <- c(
   "adult_10m2"      = "Adult", # left hand side = colnames in zp staged
   "c5_10m2"         = "CV",
@@ -35,7 +37,9 @@ stage_mapping <- c(
   "unknown_10m2"    = "Not_Staged"
 )
 
-# --- Pivot staged data to long format ---------------------------------------
+## ------------------------------------------ ##
+#            Pivot staged data -----
+## ------------------------------------------ ##
 zp_long_staged <- zp_staged %>%
   pivot_longer(
     cols      = "adult_10m2":"unknown_10m2",
@@ -46,8 +50,12 @@ zp_long_staged <- zp_staged %>%
   filter(abundance_10m2 > 0) %>%
   select(-ends_with("_count"), -conc_10m2)
 
-# --- Unstaged data: exclude taxa already in staged data ---------------------
-# prevents double-counting taxa that appear in both datasets
+## ------------------------------------------ ##
+#            Combine staged + unstaged -----
+## ------------------------------------------ ##
+# Exclude from unstaged any taxa that appear in the staged dataset
+# to prevent double-counting
+
 staged_taxa <- zp_staged %>% distinct(taxa_name) #get names of staged taxa
 
 zp_unstaged <- zp %>%
@@ -58,9 +66,9 @@ zp_unstaged <- zp %>%
     stage_code = "Not_Staged"
   ) %>%
   filter(abundance_10m2 > 0) %>%
-  filter(!taxa_name %in% c("Fish", "Unidentified Plankton"))
+  filter(!taxa_name %in% c("Fish", "Unidentified Plankton", "Foraminifera"))
 
-# --- Combine staged and unstaged --------------------------------------------
+# --- Combine staged and unstaged 
 zp_merged <- bind_rows(zp_unstaged, zp_long_staged)
 
 # ----------------------------------------------------------------------------
@@ -69,8 +77,9 @@ message("Unique taxa:             ", n_distinct(zp_merged$taxa_name))
 message("Unique stages:           ", n_distinct(zp_merged$stage))
 message("Unique cruises:          ", n_distinct(zp_merged$cruise))
 
-# --- Save -------------------------------------------------------------------
+## ------------------------------------------ ##
+#            Save -----
+## ------------------------------------------ ##
 saveRDS(zp_merged, here("data", "processed", "02_zp_merged.rds"))
-saveRDS(lengths,   here("data", "processed", "02_lengths_clean.rds"))
 
 message("02_tidy_data.R complete — saved to data/processed/")
