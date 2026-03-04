@@ -40,7 +40,7 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 | Dataset | Source |
 |---|---|
 | Zooplankton abundance (335 &micro;m bongo net) | [EDI: knb-lter-nes.25.2](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nes.25.2) (v2) |
-| Net tow metadata | Zooplankton inventory package (EDI) |
+| Net tow metadata | [EDI: knb-lter-nes.24.2](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nes.24.2) (v2) |
 | Published mean body lengths | Compiled from literature (see `data/raw/mean_lengths.csv`) |
 | Length-weight regressions | Compiled from literature (see `data/raw/length_weight_regressions.csv`) |
 | Published mean weights | Compiled from literature (see `data/raw/mean_weights.csv`) |
@@ -53,19 +53,20 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 ```
 nes_zp_size_spectra/
 ├── scripts/
-│   ├── 00_packages.R              # load all required packages
-│   ├── 01_load_data.R             # read raw CSVs
-│   ├── 02_tidy_data.R             # merge staged/unstaged abundance data
-│   ├── 03_weights.R               # lengths + L-W regressions + weight conversions
-│   ├── 04_biomass_esd.R           # carbon biomass + ESD calculation
-│   ├── 05_nbss.R                  # bin + normalize + fit slopes + plots
+│   ├── 00_packages.R               # load all required packages
+│   ├── 01_load_data.R              # read raw CSVs
+│   ├── 02_tidy_data.R              # merge staged/unstaged abundance data
+│   ├── 03_weights.R                # lengths + L-W regressions + weight conversions
+│   ├── 04_biomass_esd.R            # carbon biomass + ESD calculation
+│   ├── 05_nbss.R                   # bin + normalize + fit slopes + plots
 │   └── diagnostic_plots/
-│       ├── check_weights.R        # weight QC plots 
-│       └── check_biomass_esd.R    # biomass and ESD QC plots
+│       ├── check_weights.R         # weight QC plots 
+│       └── check_biomass_esd.R     # biomass and ESD QC plots
+│       └── check_weight_coverage.R # shows which taxa + stage have which weights
 ├── data/
-│   ├── raw/                       # input CSVs (not tracked by git)
-│   └── processed/                 # intermediate .rds checkpoints (not tracked by git)
-├── outputs/                       # figures and final tables
+│   ├── raw/                        # input CSVs (not tracked by git)
+│   └── processed/                  # intermediate .rds checkpoints (not tracked by git)
+├── outputs/                        # figures and final tables
 ├── .gitignore
 └── README.md
 ```
@@ -93,8 +94,9 @@ Each script saves an `.rds` checkpoint to `data/processed/` so individual steps 
 Diagnostic check scripts can be run at any point after their respective pipeline step:
 
 ```r
-source("scripts/diagnostic_plots/check_weights.R")      # after 03_weights.R
-source("scripts/diagnostic_plots/check_biomass_esd.R")  # after 04_biomass_esd.R
+source("scripts/diagnostic_plots/check_weights.R")            # after 03_weights.R
+source("scripts/diagnostic_plots/check_weight_coverage.R")    # after 03_weights.R
+source("scripts/diagnostic_plots/check_biomass_esd.R")        # after 04_biomass_esd.R
 ```
 
 ---
@@ -112,17 +114,43 @@ Individual body weights are estimated using published length-weight (L-W) regres
 log10(W) = a + b * log10(L)
 ```
 
-where *L* is mean length (&micro;m) and *W* is individual weight (&micro;g). Regressions return: carbon weight (C), dry weight (DW), or wet weight (WW) depending what was available in the literature. Where no regression exists, published mean weights are used as gap-fillers.
+where *L* is mean length (&micro;m) and *W* is individual weight (&micro;g). Regressions return: carbon weight (C), dry weight (DW), or wet weight (WW) depending what was available in the literature. Where no regression exists, published mean weights are used.
+
+The resulting weights are used to derive two final weight columns:
+
+**Carbon weight (`final_C_ug`)** for biomass:
+
+| Priority | Source |
+|----------|--------|
+| 1 | L-W regression returning C directly |
+| 2 | L-W DW × (taxa-specific %C/DW) |
+| 3 | Published mean C weight |
+| 4 | Published DW × (%C/DW) |
+| 5 | Published WW × 0.20 × (%C/DW) |
+| 6 | L-W WW × 0.20 × (%C/DW) |
+
+**Wet weight (`final_WW_ug`)** for ESD:
+
+| Priority | Source |
+|----------|--------|
+| 1 | L-W regression returning WW directly |
+| 2 | L-W DW ÷ 0.20 |
+| 3 | L-W C ÷ (%C/DW) ÷ 0.20 |
+| 4 | Published mean WW |
+| 5 | Published DW ÷ 0.20 |
+| 6 | Published C ÷ (%C/DW) ÷ 0.20 |
 
 ### Weight conversions
+
 - **WW -> DW:** multiply by 0.20 (DW = 20% of WW)
 - **DW -> C:** multiply by taxa-specific %C/DW where available; fallback = 40%
 
-### ESD calculation
+### Equivalent Spherical Diameter (ESD)
+
 Each organism is approximated as a sphere. ESD is calculated from weight via:
 
 ```
-DW ->  WW  ->  volume  ->  ESD 
+WW  ->  volume  ->  ESD 
 WW (µg) -> WW (g) -> volume (cm³) [÷ 1.05 g cm⁻³] -> ESD (cm) [(6V/π)^(1/3)] -> ESD (µm)
 ```
 Zooplankton density is assumed to be 1.05 g cm⁻³ (slightly denser than seawater).
