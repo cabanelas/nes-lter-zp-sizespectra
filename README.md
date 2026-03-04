@@ -40,6 +40,7 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 | Dataset | Source |
 |---|---|
 | Zooplankton abundance (335 &micro;m bongo net) | [EDI: knb-lter-nes.25.2](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-nes.25.2) (v2) |
+| Net tow metadata | Zooplankton inventory package (EDI) |
 | Published mean body lengths | Compiled from literature (see `data/raw/mean_lengths.csv`) |
 | Length-weight regressions | Compiled from literature (see `data/raw/length_weight_regressions.csv`) |
 | Published mean weights | Compiled from literature (see `data/raw/mean_weights.csv`) |
@@ -55,19 +56,15 @@ nes_zp_size_spectra/
 │   ├── 00_packages.R              # load all required packages
 │   ├── 01_load_data.R             # read raw CSVs
 │   ├── 02_tidy_data.R             # merge staged/unstaged abundance data
-│   ├── 03_lengths.R               # add published body lengths
-│   ├── 04_weights.R               # L-W regressions + weight QC + gap-filling
-│   ├── 05_weight_conversions.R    # WW->DW->C conversions
-│   ├── 06_biomass.R               # calculate carbon biomass
-│   ├── 07_esd.R                   # calculate ESD
-│   ├── 08_nbss.R                  # bin + normalize + fit NBSS slopes + plots
+│   ├── 03_weights.R               # lengths + L-W regressions + weight conversions
+│   ├── 04_biomass_esd.R           # carbon biomass + ESD calculation
+│   ├── 05_nbss.R                  # bin + normalize + fit slopes + plots
 │   └── diagnostic_plots/
-│       ├── check_weights.R        # diagnostic plots for weight QC
-│       ├── check_esd.R            # diagnostic plots for ESD QC
-│       └── check_biomass.R        # diagnostic plots for biomass QC
+│       ├── check_weights.R        # weight QC plots 
+│       └── check_biomass_esd.R    # biomass and ESD QC plots
 ├── data/
 │   ├── raw/                       # input CSVs (not tracked by git)
-│   └── processed/                 # intermediate .rds files (not tracked by git)
+│   └── processed/                 # intermediate .rds checkpoints (not tracked by git)
 ├── outputs/                       # figures and final tables
 ├── .gitignore
 └── README.md
@@ -83,15 +80,12 @@ nes_zp_size_spectra/
 4. Run scripts in numbered order:
 
 ```r
-source("R/00_packages.R")
-source("R/01_load_data.R")
-source("R/02_tidy_data.R")
-source("R/03_lengths.R")
-source("R/04_weights.R")
-source("R/05_weight_conversions.R")
-source("R/06_biomass.R")
-source("R/07_esd.R")
-source("R/08_nbss.R")
+source("scripts/00_packages.R")
+source("scripts/01_load_data.R")
+source("scripts/02_tidy_data.R")
+source("scripts/03_weights.R")
+source("scripts/04_biomass_esd.R")
+source("scripts/05_nbss.R")
 ```
 
 Each script saves an `.rds` checkpoint to `data/processed/` so individual steps can be re-run independently without rerunning the full pipeline.
@@ -99,14 +93,17 @@ Each script saves an `.rds` checkpoint to `data/processed/` so individual steps 
 Diagnostic check scripts can be run at any point after their respective pipeline step:
 
 ```r
-source("R/checks/check_weights.R")   # after step 05
-source("R/checks/check_biomass.R")   # after step 06
-source("R/checks/check_esd.R")       # after step 07
+source("scripts/diagnostic_plots/check_weights.R")      # after 03_weights.R
+source("scripts/diagnostic_plots/check_biomass_esd.R")  # after 04_biomass_esd.R
 ```
 
 ---
 
 ## Methods Summary
+
+### Abundance data
+
+Zooplankton abundance data are from 335 &micro;m mesh bongo net tows, in units of individuals per 10 m<sup>2</sup>. Staged taxa (primarily *Calanus* copepodite stages) are handled separately to preserve stage-specific length and weight information, then merged with unstaged taxa for the full analysis. Fish, unidentified plankton, and Foraminifera are excluded.
 
 ### Weight calculation
 Individual body weights are estimated using published length-weight (L-W) regressions of the form:
@@ -126,7 +123,10 @@ Each organism is approximated as a sphere. ESD is calculated from weight via:
 
 ```
 DW ->  WW  ->  volume  ->  ESD 
+WW (µg) -> WW (g) -> volume (cm³) [÷ 1.05 g cm⁻³] -> ESD (cm) [(6V/π)^(1/3)] -> ESD (µm)
 ```
+Zooplankton density is assumed to be 1.05 g cm⁻³ (slightly denser than seawater).
+
 
 ### NBSS
 Organisms are binned into log<sub>2</sub> (octave) ESD bins. Biomass per bin is normalized by bin width (mg C m<sup>-2</sup> &micro;m<sup>-1</sup>). The NBSS slope is estimated by fitting a log10-log10 linear regression per station:
@@ -146,11 +146,18 @@ log10(B_norm) ~ log10(ESD_midpoint)
 ## Dependencies
 
 ```r
-install.packages(c("here", "tidyverse", "broom", "scales", "forcats"))
+install.packages(c("here", "tidyverse", "broom", "scales", "ggrepel"))
 ```
 
 R version used: 
 <!-- Add R ver here -->
+
+This project uses `renv` for package version management. To restore the exact environment:
+
+```r
+install.packages("renv")
+renv::restore()
+```
 
 ---
 
