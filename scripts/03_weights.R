@@ -200,7 +200,7 @@ zp_weights <- zp_eqns %>%
   )
 
 ## ------------------------------------------ ##
-#  STEP 5 - Derive WW (needed for ESD)  -----
+#  STEP 6 - Derive WW (needed for ESD)  -----
 ## ------------------------------------------ ##
 
 zp_weights <- zp_weights %>%
@@ -232,10 +232,9 @@ zp_weights <- zp_weights %>%
     )
   )
 
-## ============================================================ ##
-##  STEP 7 — Diagnostics
-## ============================================================ ##
-
+## ------------------------------------------ ##
+#  STEP 7 - Diagnostics  -----
+## ------------------------------------------ ##
 # --- Carbon source coverage ---
 message("\n=== Carbon weight source coverage ===")
 zp_weights %>%
