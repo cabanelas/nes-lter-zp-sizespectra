@@ -108,7 +108,7 @@ if (nrow(flagged) > 0) {
 }
 
 ## ------------------------------------------ ##
-#            Checks -----
+#            Save -----
 ## ------------------------------------------ ##
 saveRDS(zp_biomass_esd, here("data", "processed", "04_zp_biomass_esd.rds"))
 
