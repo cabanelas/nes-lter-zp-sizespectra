@@ -20,14 +20,14 @@
 # install.packages("tidyverse")
 # install.packages("broom")
 # install.packages("scales")
-# install.packages("forcats")
+# install.packages("ggrepel") # needed for plots only
 
 # --- Load packages ---
 library(here)       # reproducible file paths
 library(tidyverse)  # dplyr, ggplot2, tidyr, readr, forcats, stringr, purrr
 library(broom)      # tidy model output (used in NBSS slope fitting)
 library(scales)     # axis formatting in ggplot2
-library(forcats)    # factor reordering in plots
+library(ggrepel)    # optional: diagnostic plots only
 
 # --- Session info ---
 # This project uses renv for package version management.
