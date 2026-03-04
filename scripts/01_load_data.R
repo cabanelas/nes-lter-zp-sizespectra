@@ -7,15 +7,16 @@
 ## Purpose: Load all raw data files required.  
 ##          Outputs are saved as .rds for use in downstream scripts.
 ##
-## Inputs (in data/raw/):
+## Inputs (data/raw/):
 ##   - nes-lter-zp-abundance-335um-unstaged10m2.csv  (EDI: knb-lter-nes.25.2)
 ##   - nes-lter-zp-abundance-335um-staged10m2.csv    (EDI: knb-lter-nes.25.2)
+##   - nes-lter-zooplankton-tow-metadata-v2.csv      (EDI:
 ##   - mean_lengths.csv
 ##   - length_weight_regressions.csv
 ##   - mean_weights.csv
 ##   - dw_to_c_conversions.csv
 ##
-## Outputs (saved to data/processed/):
+## Outputs (data/processed/):
 ##   - 01_raw_data.rds   (named list of all loaded data frames)
 ################################################################################
 
@@ -33,28 +34,40 @@ zp <- read_csv(here("data", "raw", #v2 abundance package
 zp_staged <- read_csv(here("data", "raw",
                            "nes-lter-zp-abundance-335um-staged10m2.csv"))
 
+# --- Net tow metadata (zooplankton inventory package) ---
+bongo_metadata <- read_csv(here("data", "raw",
+                                "nes-lter-zooplankton-tow-metadata-v2.csv"))
+
+# --- Zooplankton morphometrics 
+drop_cols <- c("_source_primary", "_doi", "_location", 
+               "_source_secondary", "_notes")
+
 # --- Published mean body lengths (um) ---
-lengths <- read_csv(here("data", "raw", "mean_lengths.csv"))
+lengths <- read_csv(here("data", "raw", "mean_lengths.csv")) %>%
+  select(-ends_with(drop_cols))
 
 # --- Published length-weight regressions ---
-# Equation form: log10(W) = a + b * log10(L)
-LW_reg <- read_csv(here("data", "raw", "length_weight_regressions.csv"))
+# log10(W) = a + b * log10(L)
+LW_reg <- read_csv(here("data", "raw", "length_weight_regressions.csv")) %>%
+  select(-ends_with(drop_cols))
 
 # --- Published mean individual weights (ug) ---
-pub_weights <- read_csv(here("data", "raw", "mean_weights.csv"))
+pub_weights <- read_csv(here("data", "raw", "mean_weights.csv")) %>%
+  select(-ends_with(drop_cols))
 
 # --- Dry weight to carbon conversion factors (% C per DW) ---
-DW_to_C_convert <- read_csv(here("data", "raw", "dw_to_c_conversions.csv"))
+DW_to_C_convert <- read_csv(here("data", "raw", "dw_to_c_conversions.csv")) %>%
+  select(-ends_with(drop_cols))
 
 ## ------------------------------------------ ##
 #           Quick checks -----
 ## ------------------------------------------ ##
-message("zp rows:           ", nrow(zp))                  #23460
-message("zp_staged rows:    ", nrow(zp_staged))           #2550
-message("lengths rows:      ", nrow(lengths))             #140
-message("LW_reg rows:       ", nrow(LW_reg))              #166
-message("pub_weights rows:  ", nrow(pub_weights))         #287
-message("DW_to_C rows:      ", nrow(DW_to_C_convert))     #132
+message("zp rows:           ", nrow(zp))                #23460
+message("zp_staged rows:    ", nrow(zp_staged))         #2550
+message("lengths rows:      ", nrow(lengths))           #215
+message("LW_reg rows:       ", nrow(LW_reg))            #253
+message("pub_weights rows:  ", nrow(pub_weights))       #351
+message("DW_to_C rows:      ", nrow(DW_to_C_convert))   #178
 
 ## ------------------------------------------ ##
 #           Save -----
@@ -63,6 +76,7 @@ saveRDS(
   list(
     zp             = zp,
     zp_staged      = zp_staged,
+    bongo_metadata  = bongo_metadata,
     lengths        = lengths,
     LW_reg         = LW_reg,
     pub_weights    = pub_weights,
