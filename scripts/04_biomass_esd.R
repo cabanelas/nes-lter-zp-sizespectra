@@ -64,21 +64,7 @@ zp_biomass_esd %>%
   ) %>%
   print()
 
-# --- Flag stations with biologically unusual total biomass ---
-message("\n=== Station biomass flags ===")
-zp_biomass_esd %>%
-  group_by(cruise, station) %>%
-  summarise(total_mgC_m2 = sum(biomass_C_mgC_m2, na.rm = TRUE),
-            .groups = "drop") %>%
-  mutate(flag = case_when(
-    total_mgC_m2 < 1   ~ "low  (<1 mg C m-2)",
-    total_mgC_m2 > 100 ~ "high (>100 mg C m-2)",
-    TRUE               ~ "ok"
-  )) %>%
-  count(flag) %>%
-  print()
-
-# --- ESD range and implausible values ---
+# --- ESD range ---
 message("\n=== ESD range (um) ===")
 zp_biomass_esd %>%
   filter(!is.na(ESD_um)) %>%
@@ -89,7 +75,7 @@ zp_biomass_esd %>%
   ) %>%
   print()
 
-esd_flags <- zp_biomass_esd %>%
+zp_biomass_esd %>%
   distinct(taxa_name, stage, ESD_um) %>%
   filter(!is.na(ESD_um)) %>%
   mutate(esd_flag = case_when(
@@ -97,15 +83,6 @@ esd_flags <- zp_biomass_esd %>%
     ESD_um > 10000 ~ "too large (>10000 um)",
     TRUE           ~ "ok"
   ))
-
-message("\n=== ESD flag summary ===")
-print(count(esd_flags, esd_flag))
-
-flagged <- esd_flags %>% filter(esd_flag != "ok")
-if (nrow(flagged) > 0) {
-  message("Flagged ESD taxa:")
-  print(flagged, n = Inf)
-}
 
 ## ------------------------------------------ ##
 #            Save -----
