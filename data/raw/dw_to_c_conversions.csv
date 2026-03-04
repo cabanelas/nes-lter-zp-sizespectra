@@ -1,0 +1,179 @@
+stage_code,stage,taxa_name,c_per_dw_percent,c_dw_source_primary,c_dw_doi,c_dw_location,c_dw_source_secondary,c_dw_notes
+ZOO_STAGE_000,Adult,Calanus finmarchicus,60,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,NA
+ZOO_STAGE_000,Adult,Centropages hamatus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_000,Adult,Centropages typicus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Gorsky_et_al_1988,for copepods;37.6 in Gorsky
+ZOO_STAGE_000,Adult,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_000,Adult,Euphausia krohnii,41.2,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Kiorboe_2013;Gorsky_et_al_1988,41.9 broad euphausiid group in Kiorboe;31.1 in Gorsky
+ZOO_STAGE_000,Adult,Meganyctiphanes norvegica,40,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Gorsky_et_al_1988;Agersted_Nielsen_2014,33-45
+ZOO_STAGE_000,Adult,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_000,Adult,Nannocalanus minor,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_000,Adult,Nematoscelis megalops,41.3,Lindley_et_al_1999,10.1093/plankt/21.11.2053,Atlantic Ocean;Celtic Sea,Gorsky_et_al_1988;Lindley_et_al_1999,35.6 in Gorsky
+ZOO_STAGE_000,Adult,Paracalanus parvus,45.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Uye_1982,42.9-52.4 in Uye_1982
+ZOO_STAGE_000,Adult,Pseudocalanus minutus,61.3,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Walve_Larsson_1999,CV-CVI female
+ZOO_STAGE_000,Adult,Temora longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_000,Adult,Thysanoessa gregaria,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for euphausiids
+ZOO_STAGE_000,Adult,Thysanoessa longicaudata,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Agersted_Nielsen_2014,for euphausiids;40 in Agersted
+ZOO_STAGE_000,Adult,Thysanoessa raschii,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Agersted_Nielsen_2014,for euphausiids;38.7 in Agersted_Nielsen_2014
+ZOO_STAGE_024,CV,Calanus finmarchicus,67.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Cabrol_et_al_2020,CV;56.8 CIV-CVI Calanus spp. Cabrol et al. 2020 
+ZOO_STAGE_024,CV,Centropages hamatus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Martynova_et_al_2009,for copepods
+ZOO_STAGE_024,CV,Centropages typicus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_024,CV,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_024,CV,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_024,CV,Nannocalanus minor,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_024,CV,Paracalanus parvus,45.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Uye_1982,same as adult
+ZOO_STAGE_024,CV,Pseudocalanus minutus,61.3,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Walve_Larsson_1999,CV-CVI female
+ZOO_STAGE_024,CV,Temora longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_023,CIV,Calanus finmarchicus,56.8,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Kiorboe_2013,CIV-CVI Calanus spp.
+ZOO_STAGE_023,CIV,Centropages hamatus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_023,CIV,Centropages typicus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_023,CIV,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_023,CIV,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_023,CIV,Temora longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_022,CIII,Calanus finmarchicus,41.4,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Kiorboe_2013,CI-CIII Calanus spp.
+ZOO_STAGE_022,CIII,Centropages typicus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_022,CIII,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_022,CIII,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_022,CIII,Temora longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_021,CII,Calanus finmarchicus,41.4,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Kiorboe_2013,CI-CIII Calanus spp.
+ZOO_STAGE_021,CII,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_021,CII,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_021,CII,Temora longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_020,CI,Calanus finmarchicus,41.4,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Kiorboe_2013,CI-CIII Calanus spp.
+ZOO_STAGE_020,CI,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_020,CI,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+ZOO_STAGE_029,Furcilia,Euphausia krohnii,39.2,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Kiorboe_2013,for E. krohni furcilia
+ZOO_STAGE_029,Furcilia,Thysanoessa gregaria,38.2,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Kiorboe_2013,for T. longicaudata furcilia
+ZOO_STAGE_029,Furcilia,Thysanoessa longicaudata,38.2,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Kiorboe_2013,for T. longicaudata furcilia
+ZOO_STAGE_029,Furcilia,Thysanoessa raschii,38.2,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Kiorboe_2013,for T. longicaudata furcilia
+ZOO_STAGE_028,Calyptopis,Euphausia krohnii,42.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,Calyptopis larvae
+ZOO_STAGE_028,Calyptopis,Thysanoessa gregaria,42.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,Calyptopis larvae
+ZOO_STAGE_028,Calyptopis,Thysanoessa longicaudata,42.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,Calyptopis larvae
+ZOO_STAGE_028,Calyptopis,Thysanoessa raschii,42.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,Calyptopis larvae
+ZOO_STAGE_013,Nauplius,Euphausia krohnii,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for euphausiids not nauplii specific
+ZOO_STAGE_013,Nauplius,Thysanoessa gregaria,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for euphausiids not nauplii specific
+ZOO_STAGE_013,Nauplius,Thysanoessa longicaudata,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for euphausiids not nauplii specific
+ZOO_STAGE_013,Nauplius,Thysanoessa raschii,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for euphausiids not nauplii specific
+ZOO_STAGE_030,Cryptopia,NA ,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for Cyrtopia larvae
+Not_Staged,Not_Staged,Acartia,40.3,Gorsky_et_al_1988,10.1007/BF00392931,NA,Cabrol_et_al_2020,value for Acartia clausi;34.32 in Cabrol et al 2020 for Acartia spp. CV-CVI
+Not_Staged,Not_Staged,Acartia danae,40,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,Hirst_Kiorboe_2002;Liu_Hopcroft_2006;Omori_Ikeda_1984;Bamstedt_1986,general average
+Not_Staged,Not_Staged,Acartia longiremis,43.4,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Gorsky_et_al_1988,NA
+Not_Staged,Not_Staged,Acartia tonsa,44,Ara_2001,"CIT:Ara, K. 2001. Length-weight relationships and chemical content of the planktonic copepods in the Cananeia Lagoon estuarine system, Sao Paulo, Brazil. Plankton Biology and Ecology 48: 121–127.",Brazil,Gorsky_et_al_1988;LaRosa-Izquierdo_et_al_2025;Kiorboe_2013,40.3 value for Acartia clausi Gorsky et al 1988;12 in La Rosa-Izquierdo et al 2025
+Not_Staged,Not_Staged,Acrocalanus longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Aetideidae,34.1,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for Gaetanus tenuispinus
+Not_Staged,Not_Staged,Alteutha depressa,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Amphipoda,34.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Nakamura_et_al_2017;Gorsky_et_al_1988;Davis_Wiebe_1985,average of 3 species;34-54 in Nakamura 2017
+Not_Staged,Not_Staged,Anomura,39,Lindley_1998,10.1017/S0025315400040121,NA,Kiorboe_2013;Anger_1996;Davis_Wiebe_1985,25 in Kiorboe;50 in Anger;37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Appendicularia,46,Uye_1982,10.1007/BF02110286,Sea of Japan,Schichinohe_2000;Gorsky_et_al_1988;Kiorboe_2013,for O. dioica;54.45 average of 2 Oikopleura spp Gorsky_et_al_1988;29.5 for Oikopleura longicauda Schichinohe 2000;10.3 for tunicates in Kiorboe
+Not_Staged,Not_Staged,Augaptilidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Balanidae,44,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Uye_1982;Cabrol_et_al_2020;Muxagata_2005;Davis_Wiebe_1985,42.5 in Uye 1982 for nauplii;Cypris larvae 32 Cabrol et al. 2020;48 in Muxagata;37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Bivalvia,17.7,Uye_1982,10.1007/BF02110286,Sea of Japan,Cabrol_et_al_2020;Kiorboe_2013,45 in Cabrol et al 2020 for trohocophore larvae
+Not_Staged,Not_Staged,Brachiopoda,40,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,Gorsky_et_al_1988;Omori_1969;Hirst_Kiorboe_2002;Liu_Hopcroft_2006;Omori_Ikeda_1984;Bamstedt_1986;,general average
+Not_Staged,Not_Staged,Brachyura,34,Uye_1982,10.1007/BF02110286,Sea of Japan,Kiorboe_2013;Davis_Wiebe_1985,37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Calanidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Cabrol_et_al_2020,for copepods
+Not_Staged,Not_Staged,Calanoida,47,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,NA,for Calanus spp.
+Not_Staged,Not_Staged,Calanoida nauplius,43,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Davis_Wiebe_1985,37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Calanus,56.84,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,NA,for CIV-CVI;for CI-CIII 41.43
+Not_Staged,Not_Staged,Calanus finmarchicus,60,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult
+Not_Staged,Not_Staged,Calocalanus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Calocalanus tenuis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Candacia,36.6,Gorsky_et_al_1988,10.1016/0022-0981(88)90116-5,Mediterranean Sea,Kiorboe_2013,for C. armata
+Not_Staged,Not_Staged,Candacia armata,36.6,Gorsky_et_al_1988,10.1016/0022-0981(88)90116-5,Mediterranean Sea,Kiorboe_2013,NA
+Not_Staged,Not_Staged,Caridea,41,Lindley_1998,10.1017/S0025315400040121,NA,Davis_Wiebe_1985,37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Centropages,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Centropages bradyi,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Centropages furcatus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,LaRosa-Izquierdo_et_al_2025,for copepods;20 in LaRosa-Izquierdo_et_al_2025 tropical Central Pacific
+Not_Staged,Not_Staged,Centropages hamatus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult;for copepods
+Not_Staged,Not_Staged,Centropages typicus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Gorsky_et_al_1988,same as adult;for copepods;37.6 in Gorsky
+Not_Staged,Not_Staged,Chaetognatha,46.45,Gorsky_et_al_1988,10.1007/BF00392931,Mediterranean Sea,Nakamura_et_al_2017;Ikeda_Takahashi_2013;Kiorboe_2013;Gorsky_et_al_1988;Davis_Wiebe_1985,average of 4 Sagitta species;Sagitta elegans 44.2 Imao 2005;36.7 in Kiorboe 2013;39-52 in Gorsky;39 in Davis_Wiebe_1985
+Not_Staged,Not_Staged,Clausocalanidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Clausocalanus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Clausocalanus arcuicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult;for copepods
+Not_Staged,Not_Staged,Clausocalanus furcatus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,LaRosa-Izquierdo_et_al_2025,for copepods;20 in LaRosa-Izquierdo_et_al_2025 tropical Central Pacific
+Not_Staged,Not_Staged,Clytemnestra,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Cnidaria,11.4,Gorsky_et_al_1988,10.1007/BF00392931,Mediterranean Sea,Nakamura_et_al_2017;Kiorboe_2013,Pelagia noctiluca;Nakamura et al 2017 report 3.8
+Not_Staged,Not_Staged,Copepoda,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Nakamura_et_al_2017;Davis_Wiebe_1985,51.6 in Nakamura 2017 re Imao 2005 and Ikeda 2014b for their other copepoda
+Not_Staged,Not_Staged,Corycaeidae,53,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Nishibe_Ikeda_2008,NA
+Not_Staged,Not_Staged,Corycaeus,53,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Nishibe_Ikeda_2008,NA
+Not_Staged,Not_Staged,Creseis,22.1,Lavaniegos_Ohman_2007,10.1016/j.pocean.2007.07.002,Pacific,NA,NA
+Not_Staged,Not_Staged,Ctenocalanus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Ctenocalanus vanus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Cumacea,29.1,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,average of a few spp.
+Not_Staged,Not_Staged,Cyclopoida,44.8,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,NA,For Cyclopoid copepoda 3 spp Ikeda 2024b in Nakamura et al 2017
+Not_Staged,Not_Staged,Decapoda,46,Ikeda_1992,10.1093/plankt/14.12.1767,Sea of Japan,Anger_Dawirs_1982;Gorsky_et_al_1988;Davis_Wiebe_1985,mysid;37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Echinodermata,11,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,assuming gelatinous soft bodied 
+Not_Staged,Not_Staged,Ectoprocta,17.7,Uye_1982,10.1007/BF02110286,Sea of Japan,Cabrol_et_al_2020;Kiorboe_2013,bivalve larvae
+Not_Staged,Not_Staged,Eucalanidae,25,Cass_Daly_2015,10.1016/j.jembe.2015.04.005,NA,NA,E. inermis
+Not_Staged,Not_Staged,Eucalanus,28,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Cass_Daly_2015;LaRosa-Izquierdo_et_al_2025,15 for Eucalanus bungii in Nakamura et al 2017 re Shoden 2000 & Ueda et al 2008;28 in Cass_Daly;E. inermis 11-55 in La Rosa-Izquierdo
+Not_Staged,Not_Staged,Euchaetidae,47,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Gorsky_et_al_1988,based on P. norvegica
+Not_Staged,Not_Staged,Euphausia krohnii,41.2,Lindley_et_al_1999,10.1093/plankt/21.11.2053,NA,Kiorboe_2013;Gorsky_et_al_1988,same as adult;41.9 broad euphausiid group in Kiorboe;31.1 in Gorsky
+Not_Staged,Not_Staged,Euphausiacea,48.9,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Kiorboe_2013;Davis_Wiebe_1985,"Thysanoessa raschii, T. inermis, T. longicaudata and Meganyctiphanes norvegica;34.5 in Gorsky_et_al_1988 for average of 4 euphausiids"
+Not_Staged,Not_Staged,Eurytemora,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Evadne,45,Walve_Larsson_1999,10.1093/plankt/21.12.2309,Baltic Sea,NA,43.4 in Telesh_2017
+Not_Staged,Not_Staged,Foraminifera,NA,NA,NA,NA,NA,NA
+Not_Staged,Not_Staged,Gammaridae,34.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,amphipoda spp. average
+Not_Staged,Not_Staged,Gammaridea,34.5,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,amphipoda spp. average
+Not_Staged,Not_Staged,Gastropoda,45,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,NA,trohocophore larvae
+Not_Staged,Not_Staged,Harpacticoida,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Heteropoda,31,Davis_Wiebe_1985,10.1029/JC090iC05p08871,Northeast U.S. Shelf;Southern New England;near NESLTER line,Lavaniegos_Ohman_2007,22.1 value for Thecosomata in Lavaniegos_Ohman_2007
+Not_Staged,Not_Staged,Heterorhabdidae,43.2,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,NA,For Heterorhabdus tanneri
+Not_Staged,Not_Staged,Hyperiidea,36.5,Lavaniegos_Ohman_2007,10.1016/j.pocean.2007.07.002,Pacific,Williams_Robins_1979,NA
+Not_Staged,Not_Staged,Isopoda,40,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,NA,general average
+Not_Staged,Not_Staged,Labidocera,45,Ara_2001,"CIT:Ara, K. 2001. Length-weight relationships and chemical content of the planktonic copepods in the Cananeia Lagoon estuarine system, Sao Paulo, Brazil. Plankton Biology and Ecology 48: 121–127.",Brazil,NA,NA
+Not_Staged,Not_Staged,Labidocera aestiva,45,Ara_2001,"CIT:Ara, K. 2001. Length-weight relationships and chemical content of the planktonic copepods in the Cananeia Lagoon estuarine system, Sao Paulo, Brazil. Plankton Biology and Ecology 48: 121–127.",NA,Kiorboe_2013,L. fluvatilis
+Not_Staged,Not_Staged,Lucicutia,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Lucifer,41.1,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,For Lucifer reynaudii
+Not_Staged,Not_Staged,Mecynocera clausi,53,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Nishibe_Ikeda_2008,NA
+Not_Staged,Not_Staged,Meganyctiphanes norvegica,45,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Gorsky_et_al_1988;Lindley_et_al_1999,40 in Lindley
+Not_Staged,Not_Staged,Metridia,45.17,Cabrol_et_al_2020,10.1093/PLANKT/FBAA012,Arctic,Nakamura_et_al_2017,Metridia spp. CV-CVI;8 For Metridia pacifica Nakamura et al 2017
+Not_Staged,Not_Staged,Metridia lucens,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult;for copepods
+Not_Staged,Not_Staged,Metridiidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Microcalanus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Mysida,46.1,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Uye_1982;Gorsky_et_al_1988,Meterythrops microphtalma;38-44.2 in Uye 1982
+Not_Staged,Not_Staged,Mysidopsis bigelowi,40,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,Gorsky_et_al_1988;Omori_1969;Hirst_Kiorboe_2002;Liu_Hopcroft_2006;Omori_Ikeda_1984;Bamstedt_1986;,general average
+Not_Staged,Not_Staged,Nannocalanus minor,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult;for copepods
+Not_Staged,Not_Staged,Nematoscelis megalops,41.3,Lindley_et_al_1999,10.1093/plankt/21.11.2053,Atlantic Ocean;Celtic Sea,Gorsky_et_al_1988;Lindley_et_al_1999,35.6 in Gorsky
+Not_Staged,Not_Staged,Neocalanus,22.2,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,NA,For Neocalanus plumchrus
+Not_Staged,Not_Staged,Neomysis americana,45,Ikeda_2013,10.1016/j.jembe.2013.04.001,NA,NA,average of various mysid spp.
+Not_Staged,Not_Staged,Oikopleura,29.5,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Uye_1982;Gorsky_et_al_1988,for Oikopleura longicauda Shichinohe 2000 in Nakamura et al 2017;46 in uye 1982 for dioica;58.5 in Gorsky et al 1988
+Not_Staged,Not_Staged,Oikopleura longicauda,50.4,Gorsky_et_al_1988,10.1007/BF00392931,Mediterranean Sea,NA,NA
+Not_Staged,Not_Staged,Oithona,37,Bottger-Schnack_Schnack_2005,10.3354/meps302159,Red Sea,Cabrol_et_al_2020;Swadling_et_al_1997;Bamstedt 1986,29.95 in Cabrol et al 2020 for adults;45-50 Swadling 1997
+Not_Staged,Not_Staged,Oithona spinirostris,40,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,Gorsky_et_al_1988;Omori_1969;Hirst_Kiorboe_2002;Liu_Hopcroft_2006;Omori_Ikeda_1984;Bamstedt_1986;Cabrol_et_al_2020;Ara_2001,general average;Oithona spp. 30 in Cabrol_et_al_2020;O. hebes and O. oswaldocruzi 46 in Ara_2001
+Not_Staged,Not_Staged,Oncaea,50,Bottger-Schnack_Schnack_2023,10.1007/s00227-023-04249-6,NA,Satapoomin_1999;Cabrol_et_al_2020,37.6 CV-CVI Cabrol et al. 2020
+Not_Staged,Not_Staged,Ostracoda,39.8,Lavaniegos_Ohman_2007,10.1016/j.pocean.2007.07.002,Pacific,Cabrol_et_al_2020;Ikeda_1990;Gorsky_et_al_1988;Nakamura_et_al_2017;Davis_Wiebe_1985,37.63 in Cabrol et al.;40 in Ikeda_1990
+Not_Staged,Not_Staged,Paguridea,50,Anger_1996,10.1007/BF00347453,NA,Dawirs_1980;Davis_Wiebe_1985,low in Dawirs;37 crustacean larvae Davis_Wiebe_1985
+Not_Staged,Not_Staged,Paracalanidae,45,Ara_2001,"CIT:Ara, K. 2001. Length-weight relationships and chemical content of the planktonic copepods in the Cananeia Lagoon estuarine system, Sao Paulo, Brazil. Plankton Biology and Ecology 48: 121–127.",Brazil,NA,NA
+Not_Staged,Not_Staged,Paracalanus,45,Ara_2001,"CIT:Ara, K. 2001. Length-weight relationships and chemical content of the planktonic copepods in the Cananeia Lagoon estuarine system, Sao Paulo, Brazil. Plankton Biology and Ecology 48: 121–127.",Brazil,NA,NA
+Not_Staged,Not_Staged,Paracalanus parvus,45.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Uye_1982,same as adult;42.9-52.4 in Uye_1982
+Not_Staged,Not_Staged,Penilia avirostris,50,Uye_1982,10.1007/BF02110286,Sea of Japan,Atienza_et_al_2007,NA
+Not_Staged,Not_Staged,Phaennidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Pleuromamma,47.7,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,NA,for Pleuromamma scutullata CVI by Ikeda et al 2006 reported in Nakamura et al 2017 table 2
+Not_Staged,Not_Staged,Pleuromamma borealis,47.7,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,NA,For Pleuromamma scutullata
+Not_Staged,Not_Staged,Podon,33.1,Gorsky_et_al_1988,10.1016/0022-0981(88)90116-5,Mediterranean Sea,NA,NA
+Not_Staged,Not_Staged,Polychaeta,32.8,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Uye_1982;Cabrol_et_al_2020;Kiorboe_2013;Gorsky_et_al_1988;Davis_Wiebe_1985,For Annelida;52.7 in uye 1982;45 in Cabrol et al 2020 for trohocophore larvae;37 in Kiorboe
+Not_Staged,Not_Staged,Pontellidae,32.2,Uye_1982,10.1007/BF02110286,Sea of Japan,NA,NA
+Not_Staged,Not_Staged,Pseudocalanidae,47.9,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Cabrol_et_al_2020,For Pseudocalanus newmani;45.88 for Pseudocalanidae in Cabrol et al. 2020
+Not_Staged,Not_Staged,Pseudocalanus minutus,61.3,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Walve_Larsson_1999,same as adult;CV-CVI female
+Not_Staged,Not_Staged,Pseudodiaptomus,45,Uye_1982,10.1007/BF02110286,Sea of Japan,NA,NA
+Not_Staged,Not_Staged,Rhincalanus,52,Cass_Daly_2015,10.1016/j.jembe.2015.04.005,NA,NA,R. rostrifrons;R. nasutus close to this value
+Not_Staged,Not_Staged,Sagitta,44.2,Nakamura_et_al_2017,10.6620/ZS.2017.56-13,NA,Gorsky_et_al_1988;Stuart_Verheye_1991,for Sagitta elegans Imao 2005 and Ikeda and Takahashi 2012 in Nakamura et al 2017;27.87 for S. friderici in Stuart_Verheye_1991
+Not_Staged,Not_Staged,Sagitta elegans,33.5,Bone_et_al_1991,"CIT:Bone, Q., H. Kapp, A. C. Pierrot-Bults, Q. Bone, H. Kapp, and A. C. Pierrot-Bults, eds. 1991. The Biology of Chaetognaths, Oxford University Press.",NA,Nakamura_et_al_2017;Kiorboe_2013,44.2 in Nakamura et al 2017;38 in Kiorboe
+Not_Staged,Not_Staged,Salpidae,13,Luskow_et_al_2024,10.1093/plankt/fbad053,Northeast Atlantic;Pacific,Andersen_1998,8 in Andersen 1998;7 in Kiorboe average mix of spp.
+Not_Staged,Not_Staged,Scolecitrichidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Siphonophora,10.7,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Gorsky_et_al_1988,"Average of Muggiacea atlantica, Abylopsis tetragona, Chelophyes appendiculata"
+Not_Staged,Not_Staged,Spinocalanidae,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Spinocalanus,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Spiratella,22.1,Lavaniegos_Ohman_2007,10.1016/j.pocean.2007.07.002,Pacific,Omori_1969,value for Thecosomata;25-31 in Omori_1969
+Not_Staged,Not_Staged,Stomatopoda,40,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,NA,general average
+Not_Staged,Not_Staged,Temora,45,Ara_2001,"CIT:Ara, K. 2001. Length-weight relationships and chemical content of the planktonic copepods in the Cananeia Lagoon estuarine system, Sao Paulo, Brazil. Plankton Biology and Ecology 48: 121–127.",Brazil,Cabrol_et_al_2020,37.46 in Cabrol et al. 2020
+Not_Staged,Not_Staged,Temora longicornis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult;for copepods
+Not_Staged,Not_Staged,Temora stylifera,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Temora turbinata,41.5,Uye_1982,10.1007/BF02110286,Sea of Japan,Ara_2001;Kiorboe_2013,44.6 in Kiorboe
+Not_Staged,Not_Staged,Temoropia mayumbaensis,48,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,for copepods
+Not_Staged,Not_Staged,Thaliacea,11.3,Lavaniegos_Ohman_2007,10.1016/j.pocean.2007.07.002,Pacific,Nakamura_et_al_2017;Kiorboe_2013;Davis_Wiebe_1985,Pyrosomes;Salpa fusiformis 4.6 in Nakamura et al 2007; 7.8 in Davis_Wiebe_1985
+Not_Staged,Not_Staged,Thecosomata,22.1,Lavaniegos_Ohman_2007,10.1016/j.pocean.2007.07.002,Pacific,Davis_Wiebe_1985,NA
+Not_Staged,Not_Staged,Thysanoessa gregaria,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,same as adult;for euphausiids
+Not_Staged,Not_Staged,Thysanoessa longicaudata,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Agersted_Nielsen_2014,same as adult;for euphausiids;40 in Agersted
+Not_Staged,Not_Staged,Thysanoessa raschii,41.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,Agersted_Nielsen_2014,same as adult;for euphausiids;38.7 in Agersted_Nielsen_2014
+Not_Staged,Not_Staged,Tomopteris,37.6,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,Tomopteris sp. average
+Not_Staged,Not_Staged,Tortanus discaudatus,43.9,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,NA
+Not_Staged,Not_Staged,Undinula vulgaris,43,Kiorboe_2013,10.4319/lo.2013.58.5.1843,NA,NA,NA

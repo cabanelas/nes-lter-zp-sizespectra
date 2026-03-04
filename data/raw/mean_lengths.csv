@@ -1,0 +1,216 @@
+stage_code,stage,taxa_name,length_mean_um,length_mean_type,length_source_primary,length_doi,length_location,length_source_secondary,length_notes
+ZOO_STAGE_000,Adult,Calanus finmarchicus,1900,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,adult females
+ZOO_STAGE_000,Adult,Calanus finmarchicus,2562,PL,Gluchowska_et_al_2017,10.1093/icesjms/fsx033,North Atlantic;Nordic Sea,Hirche_et_al_1994;Karlson_Bamstedt_1994;Hay_et_al_1991,NA
+ZOO_STAGE_000,Adult,Centropages hamatus,1130,PL,Martynova_et_al_2009,10.1007/s00300-008-0513-1,White Sea,Razouls_et_al_2005;Conway_2006,females
+ZOO_STAGE_000,Adult,Centropages typicus,1000,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_000,Adult,Centropages typicus,1210,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,Carlotti_et_al_2007;Lawson_Grice_1970;Hay_et_al_1991;Saiz_et_al_1999;Bonnet_et_al_2007;Razouls_Razouls_1976,NA
+ZOO_STAGE_000,Adult,Clausocalanus arcuicornis,1320,PL,Cedras_Gibbons_2021,10.1016/j.dsr2.2021.104963,Indian Ocean,Razouls_et_al_2005;Zakaria_et_al_2018,NA
+ZOO_STAGE_000,Adult,Euphausia krohnii,15500,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Piontkovski_et_al_2008,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_000,Adult,Meganyctiphanes norvegica,22500,TL,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Norwegian Sea,Silva_et_al_2017;Kulka_Corey_1982;Brattelid_Matthews_1978,7000 CL Kulka_Corey_1982 max they show 10000um
+ZOO_STAGE_000,Adult,Metridia lucens,1200,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_000,Adult,Metridia lucens,1443,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Hay_et_al_1991;Conway_2006;Pillar_1984,NA
+ZOO_STAGE_000,Adult,Nannocalanus minor,1500,PL,Andronov_et_al_2006,"CIT:Andronov, V. N., N. A. Kazus, V. F. Grudina, and S. G. Matviy. 2006. Nannocalanus minor (Claus, 1863) (Crustacea: Calanoida: Calanidae) from the Sicilian Channel of the Mediterranean Sea. Arthropoda Selecta 15: 1–8.",Sicilian Channel;Mediterranean Sea,Zakaria_et_al_2018;ICES_WGZE_COPEPEDIA;Pillar_1984,NA
+ZOO_STAGE_000,Adult,Nematoscelis megalops,11000,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Wiebe_et_al_1981;Knutsen_et_al_2024;Frost_1934;Andersen_et_al_2001,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_000,Adult,Paracalanus parvus,720,PL,Walsh_unpub,NA,Northeast U.S. Shelf,Razouls_et_al_2005;Zakaria_et_al_2018;Hay_et_al_1991;Conway_2006;Uye_Matsuda_1988;Pillar_1984,from EcoMon
+ZOO_STAGE_000,Adult,Pseudocalanus minutus,1000,PL,Raymont_1959,10.4319/lo.1959.4.4.0479,Woods Hole,Dvoretsky_Dvoretsky_2010,CL;710 in Karlson_Bamstedt_1994
+ZOO_STAGE_000,Adult,Temora longicornis,690,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_000,Adult,Temora longicornis,960,PL,Thompson_Runge_unpub,NA,NE Atlantic;Plymouth,Corona_et_al_2021;Conway_2006;Martynova_et_al_2009,adult females
+ZOO_STAGE_000,Adult,Thysanoessa gregaria,12500,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Pares-Escobar_et_al_2018;Kulagin_et_al_2024,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_000,Adult,Thysanoessa longicaudata,10000,TL,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Hay_et_al_1991,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_000,Adult,Thysanoessa raschii,14000,TL,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Parrish_et_al_2009;Hay_et_al_1991;Smith_1991,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_024,CV,Calanus finmarchicus,1760,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_024,CV,Calanus finmarchicus,2330,PL,Campbell_et_al_2001,10.1016/S0967-0645(00)00089-8,Northeast U.S. Shelf;Georges Bank,Davis_1984;Conway_2006;Gluchowska_et_al_2017;Campbell_et_al_2001b;Cornils_et_al_2022,NA
+ZOO_STAGE_024,CV,Calanus finmarchicus,2800,TL,NA,NA,NA,NA,estimate based on PL
+ZOO_STAGE_024,CV,Centropages hamatus,890,PL,Brun_et_al_2017,10.5194/essd-9-99-2017,Clyde,ICES_WGZE_COPEPEDIA;Conway_2006,NA
+ZOO_STAGE_024,CV,Centropages typicus,990,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017;Carlotti_et_al_2007;Lawson_Grice_1970;Bonnet_Carlotti_2001,Bonnet_Carlotti_2001 have CL
+ZOO_STAGE_024,CV,Clausocalanus arcuicornis,800,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,Mediterranean Sea,Shmeleva_1965,CL
+ZOO_STAGE_024,CV,Metridia lucens,1220,PL,Brun_et_al_2017,10.5194/essd-9-99-2017,northern North Sea,ICES_WGZE_COPEPEDIA;Conway_2006;Thompson_Runge_unpub;Pillar_1984,NA
+ZOO_STAGE_024,CV,Nannocalanus minor,1200,PL,Brun_et_al_2017,10.5194/essd-9-99-2017,Gulf of Marseilles,ICES_WGZE_COPEPEDIA;Razouls_et_al_2005;Conway_2006;Pillar_1984,NA
+ZOO_STAGE_024,CV,Paracalanus parvus,650,PL,Steinberg_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Davis 1984,NA
+ZOO_STAGE_024,CV,Pseudocalanus minutus,880,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,Davis_1984,NA
+ZOO_STAGE_024,CV,Temora longicornis,750,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Conway_2006,NA
+ZOO_STAGE_023,CIV,Calanus finmarchicus,1350,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_023,CIV,Calanus finmarchicus,1745,PL,Campbell_et_al_2001b,10.3354/meps221161,Northeast U.S. Shelf;between Cape Cod and Georges Bank,Davis_1984;Conway_2006;Cornils_et_al_2022;Gluchowska_et_al_2017,NA
+ZOO_STAGE_023,CIV,Calanus finmarchicus,2100,TL,NA,NA,NA,NA,estimate based on PL
+ZOO_STAGE_023,CIV,Centropages hamatus,750,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Conway_2006;Razouls_et_al_2005;Martynova_et_al_2009,NA
+ZOO_STAGE_023,CIV,Centropages typicus,870,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,Carlotti_et_al_2007;Lawson_Grice_1970;Conway_2006,NA
+ZOO_STAGE_023,CIV,Clausocalanus arcuicornis,634,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,Mediterranean Sea,Shmeleva_1965,CL
+ZOO_STAGE_023,CIV,Metridia lucens,900,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,Brun_et_al_2017;ICES_WGZE_COPEPEDIA;Conway_2006;Pillar_1984,NA
+ZOO_STAGE_023,CIV,Temora longicornis,590,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017;Martynova_et_al_2009,NA
+ZOO_STAGE_022,CIII,Calanus finmarchicus,1000,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_022,CIII,Calanus finmarchicus,1320,PL,Campbell_et_al_2001,10.1016/S0967-0645(00)00089-8,Northeast U.S. Shelf;Georges Bank,Davis_1984;Conway_2006;Gluchowska_et_al_2017;Cornils_et_al_2022,NA
+ZOO_STAGE_022,CIII,Calanus finmarchicus,1500,TL,NA,NA,NA,NA,estimate based on PL
+ZOO_STAGE_022,CIII,Centropages typicus,750,PL,Thompson_Runge_unpub,NA,NA,NA,NA
+ZOO_STAGE_022,CIII,Clausocalanus arcuicornis,511,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,Mediterranean Sea,Shmeleva_1965,CL
+ZOO_STAGE_022,CIII,Metridia lucens,750,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017;Pillar_1984,NA
+ZOO_STAGE_022,CIII,Temora longicornis,490,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017,NA
+ZOO_STAGE_021,CII,Calanus finmarchicus,760,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_021,CII,Calanus finmarchicus,930,PL,Campbell_et_al_2001,10.1016/S0967-0645(00)00089-8,Northeast U.S. Shelf;Georges Bank,Davis_1984;Conway_2006;Gluchowska_et_al_2017;Cornils_et_al_2022,NA
+ZOO_STAGE_021,CII,Calanus finmarchicus,1100,TL,NA,NA,NA,NA,estimate based on PL
+ZOO_STAGE_021,CII,Clausocalanus arcuicornis,373,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,Mediterranean Sea,Shmeleva_1965,CL
+ZOO_STAGE_021,CII,Metridia lucens,600,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017,NA
+ZOO_STAGE_021,CII,Temora longicornis,400,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017;Martynova_et_al_2009,NA
+ZOO_STAGE_020,CI,Calanus finmarchicus,570,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+ZOO_STAGE_020,CI,Calanus finmarchicus,680,PL,Campbell_et_al_2001,10.1016/S0967-0645(00)00089-8,Northeast U.S. Shelf;Georges Bank,Davis_1984;Conway_2006;Gluchowska_et_al_2017;Cornils_et_al_2022,NA
+ZOO_STAGE_020,CI,Calanus finmarchicus,750,TL,NA,NA,NA,NA,estimate based on PL
+ZOO_STAGE_020,CI,Clausocalanus arcuicornis,350,PL,NA,NA,NA,NA,estimate based on CII lengths and comparing to CI:CII T. longicornis ratios;CL
+ZOO_STAGE_020,CI,Metridia lucens,410,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Conway_2006;Brun_et_al_2017,NA
+ZOO_STAGE_029,Furcilia,Euphausia krohnii,4250,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Lindley_et_al_1999,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_029,Furcilia,Thysanoessa gregaria,3275,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_029,Furcilia,Thysanoessa longicaudata,4500,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_029,Furcilia,Thysanoessa raschii,6050,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_028,Calyptopis,Euphausia krohnii,1840,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_028,Calyptopis,Thysanoessa gregaria,1700,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_028,Calyptopis,Thysanoessa longicaudata,1750,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_028,Calyptopis,Thysanoessa raschii,1730,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_013,Nauplius,Euphausia krohnii,500,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_013,Nauplius,Thysanoessa gregaria,450,TL,Teglhus_et_al_2015,10.3354/meps11486,NA,NA,estimate based on T. raschii
+ZOO_STAGE_013,Nauplius,Thysanoessa longicaudata,450,TL,Teglhus_et_al_2015,10.3354/meps11486,NA,NA,estimate based on T. raschii
+ZOO_STAGE_013,Nauplius,Thysanoessa raschii,470,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,NA,Euphausiids of the World Ocean 1.1
+ZOO_STAGE_030,Cryptopia,NA ,NA,NA,NA,NA,NA,NA,NA
+Not_Staged,Not_Staged,Acartia,670,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,for Acartia spp.
+Not_Staged,Not_Staged,Acartia,1000,PL,Walsh_unpub,NA,Northeast U.S. Shelf,Ara_2001;Berggreen_et_al_1988,from EcoMon
+Not_Staged,Not_Staged,Acartia danae,750,PL,Swadling_et_al_2013,URL:https://www.imas.utas.edu.au/zooplankton,NA,Conway_2006,1000 TL
+Not_Staged,Not_Staged,Acartia longiremis,1000,PL,Walsh_unpub,NA,Northeast U.S. Shelf,Brun_et_al_2017;ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Acartia tonsa,900,PL,Muxagata_2005,URL:https://eprints.soton.ac.uk/17668/,English Channel,Ara_2001;Berggreen_et_al_1988;Brun_et_al_2017;ICES_WGZE_COPEPEDIA;Almeda_et_al_2016,NA
+Not_Staged,Not_Staged,Acrocalanus longicornis,1100,PL,Bradford-Grieve_1994,"CIT:Bradford-Grieve, J. M. 1994. The marine fauna of New Zealand. Pelagic calanoid copepoda: Megacalanidae, Calanidae, Paracalanidae, Mecynoceridae, Eucalanidae, Spinocalanidae, Clausocalanidae, NIWA (National Institute of Water and Atmospheric Research).",New Zealand,NA,unsure if TL or PL
+Not_Staged,Not_Staged,Aetideidae,1200,PL,Markhaseva_1996,"CIT:Markhaseva, E. L. 1996. Calanoid copepods of the family Aetideidae of the world ocean. Zoological Institute of Russian Academy of Sciences.",NA,Mauchline_1998,NA
+Not_Staged,Not_Staged,Aetideidae,1500,TL,Markhaseva_1996,"CIT:Markhaseva, E. L. 1996. Calanoid copepods of the family Aetideidae of the world ocean. Zoological Institute of Russian Academy of Sciences.",NA,Koguchi_et_al_2022;Conway_et_al_2003;Mauchline_1999,Aetideidae of the World Ocean https://aetideidae.linnaeus.naturalis.nl;2300 PL
+Not_Staged,Not_Staged,Alteutha depressa,1200,TL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA;Wooton_Castellani_2017,harpacticoid;https://www.st.nmfs.noaa.gov/copepedia/taxa/T4017768/html/biometricframe.html
+Not_Staged,Not_Staged,Amphipoda,2590,TL,Hay_et_al_1991,10.1016/0278-4343(91)90021-W,NA,Parrish_et_al_2009,Length for Parathemisto sp.;this seems to be on the lower size range
+Not_Staged,Not_Staged,Anomura,1400,CL,Christiansen_Anger_1990,"CIT:Christiansen, M. E., and K. Anger. 1990. COMPLETE LARVAL DEVELOPMENT OF GALATHEA INTERMEDIA LILLJEBORG REARED IN LABORATORY CULTURE (ANOMURA: GALATHEIDAE). Journal of Crustacean Biology 10: 87–111.",NA,Korn_et_al_2010,2.5 TL
+Not_Staged,Not_Staged,Appendicularia,600,TrL,Gorsky_et_al_1987,10.1007/BF00392931,Laboratory,Sato_et_al_2001;Uye_1982,lengths for Oikopleura dioica
+Not_Staged,Not_Staged,Augaptilidae,2500,PL,Andronov_Kosobokva_2024 ,10.11646/zootaxa.5410.3.9,Arctic Ocean,Razouls_et_al_2005,https://www.st.nmfs.noaa.gov/nauplius/media/copepedia/taxa/T4000979/html/biometricframe.html
+Not_Staged,Not_Staged,Augaptilidae,3300,TL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA,https://www.st.nmfs.noaa.gov/nauplius/media/copepedia/taxa/T4000979/html/biometricframe.html
+Not_Staged,Not_Staged,Balanidae,600,TL,Lang_1979,10.5962/bhl.title.63163,NA,Muxagata_2005;Thiyagarajan_et_al_1997,NOAA Tech Report Circular 421
+Not_Staged,Not_Staged,Bivalvia,350,SL,Loosanoff_et_al_1996,"CIT:Loosanoff, V. L., H. C. Davis, and P. E. Chanley. 1966. Dimensions and shapes of larvae of some marine bivalve mollusks. Malacologia 4: 351–435.",NA,Fotel_et_al_1999,"length measurement represents the longest distance along the anterio rposterior line of the shell, roughly  parallel to the hinge"
+Not_Staged,Not_Staged,Brachiopoda,600,SL,Collin_et_al_2018,10.3390/d11010002,Panama,NA,NA
+Not_Staged,Not_Staged,Brachyura,1100,CL,DiMuzio_et_al_2019,10.1038/s41598-019-55412-3,Mediterranean Sea;Spain,Lindley_1998;Konishi_1983;Hart_1935;Lebour_1928;Uye_1982;ICES_WGZE_COPEPEDIA;Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Calanidae,1700,PL,Durbin_et_al_2000,10.1006/jmsc.2000.0974,Northeast U.S. Shelf;Georges Bank,NA,NA
+Not_Staged,Not_Staged,Calanidae,2500,TL,Durbin_et_al_2000,10.1006/jmsc.2000.0974,Northeast U.S. Shelf;Georges Bank,Tarling_et_al_2022,same as Calanus
+Not_Staged,Not_Staged,Calanoida,1500,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,NA,Conway_et_al_2003,NA
+Not_Staged,Not_Staged,Calanoida nauplius,400,PL,Daase_et_al_2011,URL:https://www.jstor.org/stable/24874479,North Sea,NA,NA
+Not_Staged,Not_Staged,Calanoida nauplius,500,TL,Daase_et_al_2011,URL:https://www.jstor.org/stable/24874479,North Sea,Ogilvie_1953;Hygum_et_al_2000,NA
+Not_Staged,Not_Staged,Calanus,1100,PL,Jarvis_2003,10.21954/ou.ro.0000f704,Scotland;Clyde Sea,NA,NA
+Not_Staged,Not_Staged,Calanus,2500,TL,Durbin_et_al_2000,10.1006/jmsc.2000.0974,Northeast U.S. Shelf;Georges Bank,Tarling_et_al_2022,NA
+Not_Staged,Not_Staged,Calanus finmarchicus,2500,PL,Gluchowska_et_al_2017,10.1093/icesjms/fsx033,North Atlantic;Nordic Sea,Hirche_et_al_1994;Karlson_Bamstedt_1994;Hay_et_al_1991,almost same as adult
+Not_Staged,Not_Staged,Calocalanus,780,PL,Hopcroft_et_al_1998,10.1007/s002270050281,Jamaica,Zakaria_et_al_2018;Razouls_et_al_2005;ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Shih_et_al_2022,NA
+Not_Staged,Not_Staged,Calocalanus tenuis,1200,PL,Bradford-Grieve_1994,"CIT:Bradford-Grieve, J. M. 1994. The marine fauna of New Zealand. Pelagic calanoid copepoda: Megacalanidae, Calanidae, Paracalanidae, Mecynoceridae, Eucalanidae, Spinocalanidae, Clausocalanidae, NIWA (National Institute of Water and Atmospheric Research).",New Zealand,NA,unsure if TL or PL
+Not_Staged,Not_Staged,Candacia,1600,TL,Swadling_et_al_2013,URL:https://www.imas.utas.edu.au/zooplankton,NA,Razouls_et_al_2005;Pitois_et_al_2021;ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Candacia armata,1700,TL,Conway_2006,10.13140/2.1.5043.8089,North Atlantic ,Swadling_et_al_2013;Razouls_et_al_2005;Pitois_et_al_2021;ICES_WGZE_COPEPEDIA;Roff_1979;Piontkovski_et_al_2008,CV-CVI;2.7 adults in Roff;1400 PL
+Not_Staged,Not_Staged,Caridea,3800,CL,Bartilotti_DosSantos_2019,10.7717/peerj.7334,NA,Heard_Spotte_1997,measured from the tip of rostrum to the posterior margin of the carapace
+Not_Staged,Not_Staged,Centropages,1100,PL,NA,NA,NA,NA,estimate based on smaller than centropages to account for hamatus; close to C. furcatus size by Hopcroft et al 1998
+Not_Staged,Not_Staged,Centropages bradyi,2100,TL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Centropages furcatus,1050,PL,Hopcroft_et_al_1998,10.1007/s002270050281,Jamaica,La Rosa-Izquierdo_et_al_2025;Mauchline_1998;Mazzocchi_2020;Peralba_et_al_2017,NA
+Not_Staged,Not_Staged,Centropages hamatus,1100,PL,Martynova_et_al_2009,10.1007/s00300-008-0513-1,White Sea,Razouls_et_al_2005;Conway_2006,almost same as adult
+Not_Staged,Not_Staged,Centropages typicus,1000,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+Not_Staged,Not_Staged,Centropages typicus,1200,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,Carlotti_et_al_2007;Lawson_Grice_1970;Hay_et_al_1991;Saiz_et_al_1999;Bonnet_et_al_2007;Razouls_Razouls_1976,almost same as adult
+Not_Staged,Not_Staged,Chaetognatha,7600,TL,Hay_et_al_1991,10.1016/0278-4343(91)90021-W,North Sea,Parrish_et_al_2009;Piontkovski_et_al_2008,Standard length
+Not_Staged,Not_Staged,Clausocalanidae,1100,PL,Bradford-Grieve_1994,"CIT:Bradford-Grieve, J. M. 1994. The marine fauna of New Zealand. Pelagic calanoid copepoda: Megacalanidae, Calanidae, Paracalanidae, Mecynoceridae, Eucalanidae, Spinocalanidae, Clausocalanidae, NIWA (National Institute of Water and Atmospheric Research).",New Zealand,NA,unsure if TL or PL
+Not_Staged,Not_Staged,Clausocalanus,1100,TL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,NA,Mauchline_1998;ICES_WGZE_COPEPEDIA;Swadling_et_al_2013;Gasparini_2008;Mazzocchi_2020;Peralba_et_al_2017;Pillar_1984,NA
+Not_Staged,Not_Staged,Clausocalanus arcuicornis,1300,PL,Cedras_Gibbons_2021,10.1016/j.dsr2.2021.104963,Indian Ocean,Razouls_et_al_2005;Zakaria_et_al_2018,almost same as adult
+Not_Staged,Not_Staged,Clausocalanus furcatus,750,PL,Chisholm_Roff_1990,10.1007/BF02114676,Jamaica,NA,NA
+Not_Staged,Not_Staged,Clausocalanus furcatus,1000,TL,Swadling_et_al_2013,URL:https://www.imas.utas.edu.au/zooplankton,NA,Chisholm_Roff_1990;Brun_et_al_2017;ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Clytemnestra,900,PL,Huys_Conroy-Dalton_2000,,NA,Razouls_et_al_2005,1000 TL
+Not_Staged,Not_Staged,Cnidaria,3000,TL,GiachiniTosetto_et_al_2019,10.1016/j.ecss.2019.02.027,South Atlantic;Brazil,NA,NA
+Not_Staged,Not_Staged,Copepoda,1300,PL,NA,NA,NA,NA,NA
+Not_Staged,Not_Staged,Copepoda,1700,TL,Postel_et_al_2000,10.1016/B978-012327645-2/50005-0,NA,NA,NA
+Not_Staged,Not_Staged,Corycaeidae,900,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,NA,Chisholm_Roff_1990;Piontkovski_et_al_2008;Elineau_et_al_2024;Pitois_et_al_2021;Satapoomin_1999;ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Gleiber_et_al_2022;Hopcroft_et_al_1998,NA
+Not_Staged,Not_Staged,Corycaeus,1200,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691023,Caribbean Sea,Wi_et_al_2015;Swadling_et_al_2013;Razouls_et_al_2005;ICES_WGZE_COPEPEDIA;Gleiber_et_al_2022;Hopcroft_et_al_1998,NA
+Not_Staged,Not_Staged,Creseis,4000,SL,Gasca_Janssen_2013,10.1093/mollus/eyt038,Atlantic Ocean,Severns_PF_1991;SeaLifeBase;Elineau_et_al_2024;Wells_1973,NA
+Not_Staged,Not_Staged,Ctenocalanus,1000,PL,Bradford-Grieve_1994,"CIT:Bradford-Grieve, J. M. 1994. The marine fauna of New Zealand. Pelagic calanoid copepoda: Megacalanidae, Calanidae, Paracalanidae, Mecynoceridae, Eucalanidae, Spinocalanidae, Clausocalanidae, NIWA (National Institute of Water and Atmospheric Research).",New Zealand,NA,unsure if TL or PL
+Not_Staged,Not_Staged,Ctenocalanus vanus,750,PL,NA,NA,NA,NA,estimate based on TL
+Not_Staged,Not_Staged,Ctenocalanus vanus,1000,TL,Gasparini_2008,URL:https://www.obs-vlfr.fr/~gaspari/copepods_guide/cteno_vanus_fem.htm,Bay of Villefranche-sur-mer;France,Brun_et_al_2017;ICES_WGZE_COPEPEDIA;Pillar_1984,NA
+Not_Staged,Not_Staged,Cumacea,5000,TL,Petrescu_Heard_2004,10.11646/zootaxa.721.1.1,Costa Rica,Elineau_et_al_2024;Jones_1957,NA
+Not_Staged,Not_Staged,Cyclopoida,1000,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,NA,NA,NA
+Not_Staged,Not_Staged,Decapoda,550,CL,Piontkovski_et_al_2008,10.1594/PANGAEA.691023,Caribbean Sea,Hong_Kim_2002,NA
+Not_Staged,Not_Staged,Echinodermata,1000,TL,McEdward_1986,10.1016/0022-0981(86)90206-6,Pacific,McEdward_1986b,NA
+Not_Staged,Not_Staged,Ectoprocta,500,TL,Winston_et_al_1982,"CIT:Winston, J. E. 1982. MARINE BRYOZOANS (ECTOPROCTA) OF THE INDIAN RIVER AREA (FLORIDA). Bulletin of the American Museum of Natural History 173: 99–176.",Indian River;Florida,Ryland_2005;Stricker_et_al_1988,NA
+Not_Staged,Not_Staged,Eucalanidae            ,2500,PL,Swadling_et_al_2013,URL:https://www.imas.utas.edu.au/zooplankton,NA,Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Eucalanidae            ,3000,TL,Fleminger_1973,"CIT:Flemingeri, A. 1973. Pattern, number, variability, and taxonomic significance of integumental organs (sensilla and glandular pores) in the genus Eucalanus (Copepoda, Calanoida). Fishery Bulletin 71: 965–1010.",NA,Ueda_2008;ICES_WGZE_COPEPEDIA;Brun_et_al_2017,using same as Eucalanus
+Not_Staged,Not_Staged,Eucalanus,2500,PL,Swadling_et_al_2013,URL:https://www.imas.utas.edu.au/zooplankton,NA,Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Eucalanus,3000,TL,Fleminger_1973,"CIT:Flemingeri, A. 1973. Pattern, number, variability, and taxonomic significance of integumental organs (sensilla and glandular pores) in the genus Eucalanus (Copepoda, Calanoida). Fishery Bulletin 71: 965–1010.",NA,Ueda_2008;ICES_WGZE_COPEPEDIA;Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Euchaetidae,2500,PL,Mauchline_1999,"CIT:Mauchline, J. 1999. ICES Identification Leaflets for Plankton. LEAFLET NO. 182. Copepoda",NA,Razouls_et_al_2005;Park_1993;Yen_1986,3900 TL
+Not_Staged,Not_Staged,Euphausia krohnii,14000,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Piontkovski_et_al_2008,almost same as adult
+Not_Staged,Not_Staged,Euphausiacea,14000,TL,NA,NA,NA,NA,mean of other adult euphausiid species
+Not_Staged,Not_Staged,Eurytemora,710,PL,Escribano_McLaren,10.1016/0022-0981(92)90259-D,Nova Scotia,Brun_et_al_2017,E. herdmani at 10C;e. RABOTI 1700 Brun et al 
+Not_Staged,Not_Staged,Evadne,730,TL,Hay_et_al_1991,10.1016/0278-4343(91)90021-W,North Sea,ICES_WGZE_COPEPEDIA;Hebert_et_al_2016,Standard length
+Not_Staged,Not_Staged,Foraminifera,500,TL,Spezzaferri_et_al_2018,"CIT:Spezzaferri, S., H. K. Coxall, R. K. Olsson, and C. Hemleben. 2018. Chapter 6: Taxonomy, biostratigraphy, and phylogeny of Oligocene Globigerina, Globigerinella, and Quiltyella n. gen., In B.S. Wade, R.K. Olsson, P.N. Pearson, B.T. Huber, and W.A. Berggren [eds.], Atlas of Oligocene Planktonic Foraminifera.",NA,Young_et_al_2017;Pilnay_2004,NA
+Not_Staged,Not_Staged,Gammaridae,8000,TL,Parrish_et_al_2009,URL:http://www.jstor.org/stable/24873652,Newfoundland,Knutsen_et_al_2024;Swadling_et_al_2013,5 taxa;34mm;20mmParrish
+Not_Staged,Not_Staged,Gammaridea,12000,TL,Weslawski_et_al_2020,10.1002/ece3.6780,Baltic Sea,Swadling_et_al_2013,NA
+Not_Staged,Not_Staged,Gastropoda,800,TL,Lime_Pechenik_1985,10.1016/0022-0981(85)90074-7,NA,Zimmerman_Pechenik_1991,Shell length
+Not_Staged,Not_Staged,Harpacticoida,800,PL,Hay_et_al_1991,10.1016/0278-4343(91)90021-W,North Sea,Ara_2001;Satapoomin_1999;Song_et_al_2010,NA
+Not_Staged,Not_Staged,Harpacticoida,1200,TL,NA,NA,NA,NA,estimate based on PL
+Not_Staged,Not_Staged,Heteropoda,4000,TL,Seapy_et_al_2003,"CIT:Seapy, R. R., C. M. Lalli, and F. E. Wells. 2003. Heteropoda from Western Australian Waters. The Marine Flora and Fauna of Dampier 513–546.",Western Australia,Seapy_1990,NA
+Not_Staged,Not_Staged,Heterorhabdidae,1900,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691032,South Atlantic ,NA,NA
+Not_Staged,Not_Staged,Hyperiidea,10000,TL,Kraft_et_al_2012,10.1016/j.jmarsys.2011.12.006,NA,Bowman_Gruner_1973,NA
+Not_Staged,Not_Staged,Isopoda,2500,TL,Oktener_Tuncer_2020,10.19233/ASHN.2020.11,Aegean Sea,Piontkovski_et_al_2008,NA
+Not_Staged,Not_Staged,Labidocera,1800,PL,Gemmell_et_al_2012,10.1098/rspb.2012.0163,Northern Gulf of Mexico,NA,for Labidocera aestiva
+Not_Staged,Not_Staged,Labidocera,2000,TL,Smith_et_al_2017,10.3354/meps187179,Papua New Guinea,Hernandez-Trujllo_et_al_2014;Razouls_et_al_2005;ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Gemmell_et_al_2012,1700 PL
+Not_Staged,Not_Staged,Labidocera aestiva,1800,PL,Gemmell_et_al_2012,10.1098/rspb.2012.0163,Northern Gulf of Mexico,NA,NA
+Not_Staged,Not_Staged,Labidocera aestiva,2000,TL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,Vineyard Sound;Massachusetts,NA,NA
+Not_Staged,Not_Staged,Lucicutia,1200,PL,Swadling_et_al_2013,URL:https://www.imas.utas.edu.au/zooplankton,NA,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Piontkovski_et_al_2008;Lee_et_al_2024;Conway_et_al_2003,Brun_et_al_2017 9.5 av mm
+Not_Staged,Not_Staged,Lucifer,1250,TL,Vega-Perez_et_al_1996,"CIT:Vega-Perez, K. Ara, T. H. Liang, and M. M. Pedreira. 1996. Feeding of the planktonic shrimp Lucifer faxoni Borradaile, 1915 (Crustacea: Decapoda) in the laboratory. Rev. bras. oceanogr. 44: 1–8.",South Atlantic;Brazil;Laboratory,Sanvicente-Añorve_et_al_2021;Vega-Perez et al 1996;Swadling_et_al_2013;Naomi_et_al_2006,Pre-buccal Somite Length;PBSL = 0.33 x TL;TL = 3800
+Not_Staged,Not_Staged,Mecynocera clausi,1000,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691032,South Atlantic ,ICES_WGZE_COPEPEDIA;Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Meganyctiphanes norvegica,22500,TL,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Silva_et_al_2017;Kulka_Corey_1982;Brattelid_Matthews_1978,7000 CL Kulka_Corey_1982 max they show 10000um
+Not_Staged,Not_Staged,Metridia,2100,PL,Helenius_et_al_2024,10.1594/PANGAEA.969553,Northeast U.S. Shelf;Gulf of Maine,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Hirche_Mumm_1992;Plourde_Joly_2008;Razouls_et_al_2005;Liu_Hopcroft_2006;Hays_1995;Batchelder_Williams_1995,M lucens 2500 um adult PL and 4000 um M longa
+Not_Staged,Not_Staged,Metridia lucens,1200,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+Not_Staged,Not_Staged,Metridia lucens,1400,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Hay_et_al_1991;Conway_2006;Pillar_1984,almost same as adult
+Not_Staged,Not_Staged,Metridiidae,1443,PL,Thompson_Runge_unpub,NA,Northeast U.S. Shelf,ICES_WGZE_COPEPEDIA;Hay_et_al_1991;Conway_2006,same as Metridia lucens adult
+Not_Staged,Not_Staged,Microcalanus,600,PL,Skjoldal_Aarflot_2023,10.1093/plankt/fbad043,Barents Sea;Atlantic;Arctic,NA,NA
+Not_Staged,Not_Staged,Microcalanus,920,TL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Mysida,5000,TL,Piontkovski_et_al_2008,10.1594/PANGAEA.693618,Mediterranean Sea,Uye_Matsuda_1988;Allyn_et_al_2024;Panampunnayil_2002;Gleiber_et_al_2022,13000 in Parrish et al 2009
+Not_Staged,Not_Staged,Mysidopsis bigelowi,3100,CL,Allen_1984,10.2307/1547893,Hereford Inlet;New Jersey,NA,outer uropod length
+Not_Staged,Not_Staged,Nannocalanus minor,1500,PL,Andronov_et_al_2006,"CIT:Andronov, V. N., N. A. Kazus, V. F. Grudina, and S. G. Matviy. 2006. Nannocalanus minor (Claus, 1863) (Crustacea: Calanoida: Calanidae) from the Sicilian Channel of the Mediterranean Sea. Arthropoda Selecta 15: 1–8.",Sicilian Channel;Mediterranean Sea,Zakaria_et_al_2018;ICES_WGZE_COPEPEDIA;;Pillar_1984,almost same as adult
+Not_Staged,Not_Staged,Nematoscelis megalops,20000,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Wiebe_et_al_1981;Knutsen_et_al_2024,Euphausiids of the World Ocean 1.1
+Not_Staged,Not_Staged,Neocalanus,3800,PL,Kobari_et_al_2003,10.1016/S0079-6611(03)00102-2,Japan,Ueda_et_al_2008;Piontkovski_et_al_2008,CV;1700 in Piontkovski_et_al_2008
+Not_Staged,Not_Staged,Neomysis americana,5000,TL,Bouchard_Winkler_2018,10.1093/plankt/fby042,St. Lawrence,NA,NA
+Not_Staged,Not_Staged,Oikopleura,1000,TrL,Gorsky_et_al_1987,10.1007/BF00392931,NA,Fenaux_Gorsky_1983;Hopcroft_et_al_1998;Uye_1982;Sato_et_al_2001,Oikopleura longicauda;600 for O. dioica TrL in Uye
+Not_Staged,Not_Staged,Oikopleura longicauda,1000,TrL,Gorsky_et_al_1987,10.1007/BF00392931,NA,Fenaux_Gorsky_1983;Hopcroft_et_al_1998;Uye_1982;Sato_et_al_2001,Oikopleura longicauda;600 for O. dioica TrL in Uye
+Not_Staged,Not_Staged,Oithona,400,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,CL=0.65*PL
+Not_Staged,Not_Staged,Oithona,600,PL,NA,NA,NA,NA,PL=0.75*TL
+Not_Staged,Not_Staged,Oithona,800,TL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,Hay_et_al_1991;Sabatini_Kiorboe_1994;Zakaria_et_al_2018;ICES_WGZE_COPEPEDIA;Dvoretsky_Dvoretsky_2025;Huanacuni_et_al_2021;Thompson_et_al_2013;Castellani_et_al_2007,https://apps-st.fisheries.noaa.gov/nauplius/media/copepedia/taxa/T4000007/html/biometricframe.html
+Not_Staged,Not_Staged,Oithona spinirostris,500,PL,Castellani_et_al_2007,10.1093/plankt/fbm079,North Atlantic;Irminger Sea,Hay_et_al_1991;Sabatini_Kiorboe_1994;Zakaria_et_al_2018;ICES_WGZE_COPEPEDIA;Dvoretsky_Dvoretsky_2025;Huanacuni_et_al_2021;Thompson_et_al_2013;Castellani_et_al_2007;Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Oncaea,600,PL,Bottger-Schnack_Schnack_2023,10.1007/s00227-023-04249-6,NA,Chisholm_Roff_1990;Satapoomin_1999;Morales-Ramirez_Jakob_2008:Bottger-Schnack_Schnack_2023,TL 850
+Not_Staged,Not_Staged,Ostracoda,1000,CL,Angel_2010,10.1016/j.dsr2.2010.09.020,Northwest Atlantic Ocean,Ikeda_1990,Body length
+Not_Staged,Not_Staged,Paguridea,2400,CL,McLaughlin_et_al_1992,10.1080/00222939200770331,Northeast Pacific,Barria_et_al_2006;McLaughlin_et_al_1992;Hong_Kim_2002;Squires_et_al_2001,3800 TL in Squires_et_al_2001
+Not_Staged,Not_Staged,Paracalanidae,700,PL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA;Ara_2001;Conway_et_al_2003;Davis_1984;Hopcroft_et_al_1998,same as Paracalanus
+Not_Staged,Not_Staged,Paracalanus,700,PL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA;Ara_2001;Conway_et_al_2003;Davis_1984;Hopcroft_et_al_1998,NA
+Not_Staged,Not_Staged,Paracalanus parvus,700,PL,Walsh_unpub,NA,Northeast U.S. Shelf,Razouls_et_al_2005;Zakaria_et_al_2018;Hay_et_al_1991;Conway_2006;Uye_Matsuda_1988;Pillar_1984,almost same as adult
+Not_Staged,Not_Staged,Penilia avirostris,700,TL,Bernier_Locke_2006,URL:https://www.jstor.org/stable/20107721,Northeast Atlantic;Gulf of St. Lawrence,Atienza_et_al_2006;Atienza_et_al_2007;Rose_et_al_2004,NA
+Not_Staged,Not_Staged,Phaennidae,2000,PL,Bradford_et_al_1983,"CIT:Bradford, J. M., L. Haakonssen, J. B. Jillett, J. M. Bradford, and J. B. Jillett. 1983. The marine fauna of New Zealand - pelagic calanoid copepods: families Euchaetidae, Phaennidae, Scolecithricidae, Diaixidae, and Tharybidae, Dep. of Scientific and Industrial Research.",New Zealand,NA,unsure if TL or PL;length for Phaenna spinifera
+Not_Staged,Not_Staged,Phoronida,1700,TL,Temereva_2025,10.15298/invertzool.22.1.12,NA,NA,NA
+Not_Staged,Not_Staged,Pleuromamma,1400,PL,Halbert_et_al_2013,10.1371/journal.pone.0077011,Atlantic;Pacific:Indian,Mauchline_1998;Yamaguchi_Ikeda_2000,based on P. piseki and P. gracilis
+Not_Staged,Not_Staged,Pleuromamma borealis,1800,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691037,South Atlantic ,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Conway_et_al_2003;Mauchline_1998,Register of Antarctic Spp ras.biodiversiy.aq
+Not_Staged,Not_Staged,Podon,800,SL,Hay_et_al_1991,10.1016/0278-4343(91)90021-W,North Sea,Elineau_et_al_2024;Gleiber_et_al_2022;Cheng_1947;ICES_WGZE_COPEPEDIA,Standard length
+Not_Staged,Not_Staged,Polychaeta,700,TL,Hansen_1999,10.3354/meps178109,Denmark,NA,Polydora spp.;SpioMicrospio spp.;Nereis Neanthes succinea
+Not_Staged,Not_Staged,Pontellidae,2300,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691055,South Atlantic,ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Pseudocalanidae,1000,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.693625,Mediterranean Sea,Razouls_et_al_2005,NA
+Not_Staged,Not_Staged,Pseudocalanus minutus,900,PL,Raymont_1959,10.4319/lo.1959.4.4.0479,Woods Hole,Dvoretsky_Dvoretsky_2010,almost same as adult;CL
+Not_Staged,Not_Staged,Pseudodiaptomus,1200,TL,Kourkoutmani_Michaloudi_2022,10.3391/bir.2022.11.3.15,Greece,WoRMS;Sabia_et_al_2015,introduced species
+Not_Staged,Not_Staged,Rhincalanus,2800,PL,Cass_et_al_2011,10.3354/meps09324,Costa Rica,Razouls_et_al_2005;ICES_WGZE_COPEPEDIA;Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Rhincalanus,3400,TL,Cass_et_al_2011,10.3354/meps09324,Costa Rica,Razouls_et_al_2005;ICES_WGZE_COPEPEDIA;Brun_et_al_2017,NA
+Not_Staged,Not_Staged,Sagitta,9000,TL,Coston-Clements_et_al_2009,10.1016/j.jembe.2009.03.008,Northeast U.S. Shelf;North Carolina coast;Mid-Atlantic Bight,Uye_Matsuda_1988,standard length;6400-16000 in Uye and Matsuda
+Not_Staged,Not_Staged,Sagitta elegans,10000,TL,Conway_Williams_1986,10.1007/BF00401105,Celtic Sea,Alvarez-Cadena_1991;Tiselius_Peterson_1986,NA
+Not_Staged,Not_Staged,Salpidae,5000,TL,Piontkovski_et_al_2008,10.1594/PANGAEA.691055,South Atlantic,Heron_et_al_1988;Pakhomov_et_al_2024;Gleiber_et_al_2022,NA
+Not_Staged,Not_Staged,Scolecitrichidae,1300,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691055,Atlantic Ocean,Conway_2006;ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Yamaguchi_et_al_2020,NA
+Not_Staged,Not_Staged,Siphonophora,6000,TL,Park_Lee_2022,10.3390/d14060494,Korea,GiachiniTosetto_et_al_2019;Grossmann_et_al_2014,standard length
+Not_Staged,Not_Staged,Spinocalanidae,1000,PL,Bradford-Grieve_1994,"CIT:Bradford-Grieve, J. M. 1994. The marine fauna of New Zealand. Pelagic calanoid copepoda: Megacalanidae, Calanidae, Paracalanidae, Mecynoceridae, Eucalanidae, Spinocalanidae, Clausocalanidae, NIWA (National Institute of Water and Atmospheric Research).",New Zealand,NA,unsure if TL or PL;length for Spinocalanus longicornis
+Not_Staged,Not_Staged,Spinocalanus,1000,PL,Bradford-Grieve_1994,"CIT:Bradford-Grieve, J. M. 1994. The marine fauna of New Zealand. Pelagic calanoid copepoda: Megacalanidae, Calanidae, Paracalanidae, Mecynoceridae, Eucalanidae, Spinocalanidae, Clausocalanidae, NIWA (National Institute of Water and Atmospheric Research).",New Zealand,NA,unsure if TL or PL;length for Spinocalanus longicornis
+Not_Staged,Not_Staged,Spiratella,1500,SL,Bednarsek_et_al_2012,10.1016/j.dsr2.2011.08.003,Scotia Sea,WoRMS,NA
+Not_Staged,Not_Staged,Stomatopoda,2000,CL,Morgan_Provenzano_1979,"CIT:Morgan, S. G., and A. J. Provenzano. 1979. Development of Pelagic Larvae and Postlarva of Squilla empusa (Crustacea, Stomatopoda), with an Assessment of Larval Characters within the Squillidae. Fishery Bulletin 77: 61–90.",Chesapeake Bay,NA,4700 TL;for Squilla empusa;some mantis shrimp larvae can be up to 50mm
+Not_Staged,Not_Staged,Temora,1400,PL,DiCapua_2021,10.17895/ices.pub.7719,NA,ICES_WGZE_COPEPEDIA;Razouls_et_al_2005;Gasparini_2008,NA
+Not_Staged,Not_Staged,Temora longicornis,690,CL,Karlson_Bamstedt_1994,URL:https://www.jstor.org/stable/24846138,Raunefjorden;Norway,NA,NA
+Not_Staged,Not_Staged,Temora longicornis,940,PL,Thompson_Runge_unpub,NA,NE Atlantic;Plymouth,Corona_et_al_2021;Conway_2006;Martynova_et_al_2009,almost same as adult
+Not_Staged,Not_Staged,Temora stylifera,900,PL,Halsband-Lenk_2002,"CIT:Halsband-Lenk, C. 2002. Temperature impact on reproduction and development of congener marine copepods – a key to distribution patterns? Universität Oldenburg.",NA,ICES_WGZE_COPEPEDIA;Razouls_et_al_2005;Gasparini_2008;Schutze_Bjornberg_2002;Mauchline_1998,NA
+Not_Staged,Not_Staged,Temora turbinata,1100,PL,Razouls_et_al_2005,URL:https://copepodes.obs-banyuls.fr/en/index.php,NA,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Chisholm_Roff_1990;Ara_2001;Mauchline_1998;Uye_1982;Almeda_et_al_2016,NA
+Not_Staged,Not_Staged,Temoropia mayumbaensis,700,PL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Temoropia mayumbaensis,880,TL,Brun_et_al_2017,10.5194/essd-9-99-2017,NA,ICES_WGZE_COPEPEDIA,NA
+Not_Staged,Not_Staged,Thaliacea,9000,TL,Heron_et_al_1988,URL:https://www.jstor.org/stable/24827393,Australia,Steinman_et_al_2025;Takahashi_et_al_2015;Pakhomov_et_al_2024;Lai_et_al_2024,NA
+Not_Staged,Not_Staged,Thecosomata,1200,SL,Lalli_Wells_1978,10.1111/j.1469-7998.1978.tb03359.x,Barbados,NA,Shell length
+Not_Staged,Not_Staged,Thysanoessa gregaria,12000,TL,Brinton_et_al_2015,URL:https://euphausiids.linnaeus.naturalis.nl,NA,Pares-Escobar_et_al_2018;Kulagin_et_al_2024,almost same as adult
+Not_Staged,Not_Staged,Thysanoessa longicaudata,10000,TL,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Hay_et_al_1991,almost same as adult
+Not_Staged,Not_Staged,Thysanoessa raschii,13500,TL,Agersted_Nielsen_2014,10.1093/plankt/fbt139,Greenland,Parrish_et_al_2009;Hay_et_al_1991;Smith_1991,almost same as adult
+Not_Staged,Not_Staged,Tomopteris,4400,TL,Jimenez-Cueto_Suarez-Morales_1999,"CIT:Jimenez-Cueto, S., and E. Suarez-Morales. 1999. Tomopterids (Polychaeta: Tomopteridae) of the Western Caribbean Sea. Bulletin Van Het Koninklijk Belgish Instituut Voor Natuurwetenschappen 69: 5–14.",NA,Amei_et_al_2026,NA
+Not_Staged,Not_Staged,Tortanus discaudatus,1800,PL,Baptie_et_al_2017,10.1594/PANGAEA.873583,Scotland;North Atlantic,ICES_WGZE_COPEPEDIA;Razouls_et_al_2005;Hebert_et_al_2016;Raymont_1959;WoRMS;Phillips_1976,NA
+Not_Staged,Not_Staged,Undinula vulgaris,2100,PL,Piontkovski_et_al_2008,10.1594/PANGAEA.691055,South Atlantic,ICES_WGZE_COPEPEDIA;Brun_et_al_2017;Razouls_et_al_2005;Hopcroft_et_al_1998;Mauchline_1998,1.6-2.4 mm PL in UNESCO 1986 technical paper in marine sceince pelagic biogeography 1985
