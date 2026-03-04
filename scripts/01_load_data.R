@@ -10,7 +10,7 @@
 ## Inputs (data/raw/):
 ##   - nes-lter-zp-abundance-335um-unstaged10m2.csv  (EDI: knb-lter-nes.25.2)
 ##   - nes-lter-zp-abundance-335um-staged10m2.csv    (EDI: knb-lter-nes.25.2)
-##   - nes-lter-zooplankton-tow-metadata-v2.csv      (EDI:
+##   - nes-lter-zooplankton-tow-metadata-v2.csv      (EDI: knb-lter-nes.24.2)
 ##   - mean_lengths.csv
 ##   - length_weight_regressions.csv
 ##   - mean_weights.csv
@@ -34,7 +34,7 @@ zp <- read_csv(here("data", "raw", #v2 abundance package
 zp_staged <- read_csv(here("data", "raw",
                            "nes-lter-zp-abundance-335um-staged10m2.csv"))
 
-# --- Net tow metadata (zooplankton inventory package) ---
+# --- Net tow metadata (zooplankton inventory package EDI: knb-lter-nes.24.2) --
 bongo_metadata <- read_csv(here("data", "raw",
                                 "nes-lter-zooplankton-tow-metadata-v2.csv"))
 
