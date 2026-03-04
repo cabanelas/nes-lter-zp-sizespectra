@@ -32,7 +32,7 @@ zp  <- readRDS(here("data", "processed", "04_zp_biomass_esd.rds"))
 ## ------------------------------------------ ##
 #    Define log2 (octave) ESD bins -----
 ## ------------------------------------------ ##
-# octave bins spanning the mesozooplankton range (300–10000 um)
+# octave bins spanning the mesozooplankton range (300-10000 um)
 log2_breaks <- seq(log2(300), log2(10000), by = 1) #by=0.5 for half-octave bins
 breaks_um   <- 2^log2_breaks
 
@@ -54,7 +54,7 @@ zp_binned <- zp %>%
     bin_width_um = bin_max_um - bin_min_um
   )
 
-message("Bin coverage:")
+# bin coverage
 print(count(zp_binned, esd_bin) %>% arrange(esd_bin))
 
 ## ------------------------------------------ ##
@@ -76,7 +76,7 @@ nbss <- zp_binned %>%
   ) %>%
   filter(is.finite(log10_Bnorm))  # drop empty/zero bins
 
-message("\nBins per station (min / median / max):")
+# bins per station
 nbss %>%
   group_by(cruise, station) %>%
   summarise(n_bins = n(), .groups = "drop") %>%
@@ -104,34 +104,29 @@ nbss_slopes <- nbss %>%
   ) %>%
   select(cruise, station, slope, slope_se, slope_p, n_bins)
 
-message("\n=== NBSS slope summary ===")
 summary(nbss_slopes$slope)
 
 ## ------------------------------------------ ##
 #  Plots -----
 ## ------------------------------------------ ##
-# --- 1) NBSS per station, coloured by cruise ---
-p_all_stations <- ggplot(
+
+# --- 1) NBSS per station, color by cruise ---
+ggplot(
   nbss,
   aes(x = bin_mid_um, y = B_norm_mgC_m2_um,
       group = interaction(cruise, station),
-      color = cruise)
-) +
+      color = cruise)) +
   geom_line(alpha = 0.4, linewidth = 0.6) +
   geom_point(alpha = 0.4, size = 1.2) +
   scale_x_log10(labels = scales::comma) +
   scale_y_log10(labels = scales::comma) +
-  labs(
-    x     = "ESD (µm)",
-    y     = expression("Normalized biomass (mg C m"^{-2}~"µm"^{-1}~")"),
-    color = "Cruise"
-  ) +
+  labs(x = "ESD (µm)",
+       y = expression("Normalized biomass (mg C m"^{-2}~"µm"^{-1}~")"),
+       color = "Cruise") +
   theme_bw()
 
-print(p_all_stations)
-
 # --- 2) Mean NBSS ± 1 SD per cruise ---
-p_mean_cruise <- nbss %>%
+nbss %>%
   group_by(cruise, bin_mid_um) %>%
   summarise(
     mean_Bnorm = mean(B_norm_mgC_m2_um, na.rm = TRUE),
@@ -146,30 +141,20 @@ p_mean_cruise <- nbss %>%
   geom_point(size = 2) +
   scale_x_log10(labels = scales::comma) +
   scale_y_log10(labels = scales::comma) +
-  labs(
-    x     = "ESD (µm)",
-    y     = expression("Normalized biomass (mg C m"^{-2}~"µm"^{-1}~")"),
-    title = "Mean NBSS by cruise (\u00b1 1 SD)",
-    color = "Cruise",
-    fill  = "Cruise"
-  ) +
+  labs(x = "ESD (µm)",
+       y = expression("Normalized biomass (mg C m"^{-2}~"µm"^{-1}~")"),
+       title = "Mean NBSS by cruise (\u00b1 1 SD)",
+       color = "Cruise", fill  = "Cruise") +
   theme_bw()
 
-print(p_mean_cruise)
-
 # --- 3) NBSS slope distribution per cruise ---
-p_slopes <- ggplot(nbss_slopes, aes(x = slope, fill = cruise)) +
+ggplot(nbss_slopes, aes(x = slope, fill = cruise)) +
   geom_histogram(bins = 20, alpha = 0.7, position = "identity") +
   geom_vline(xintercept = -1.2, linetype = "dashed", color = "red") +
   geom_vline(xintercept = -1.5, linetype = "dashed", color = "darkred") +
-  labs(
-    x        = "NBSS slope",
-    y        = "Count",
-    subtitle = "Dashed lines: typical expected range (-1.2 to -1.5)"
-  ) +
+  labs(x = "NBSS slope",
+       y = "Count") +
   theme_bw()
-
-print(p_slopes)
 
 ## ------------------------------------------ ##
 #            Save -----

@@ -53,7 +53,6 @@ zp_biomass_esd <- zp_biomass_esd %>%
 ## ------------------------------------------ ##
 
 # --- Biomass range ---
-message("=== Biomass range (mg C m-2) ===")
 zp_biomass_esd %>%
   filter(!is.na(biomass_C_mgC_m2)) %>%
   summarise(
@@ -65,7 +64,6 @@ zp_biomass_esd %>%
   print()
 
 # --- ESD range ---
-message("\n=== ESD range (um) ===")
 zp_biomass_esd %>%
   filter(!is.na(ESD_um)) %>%
   summarise(
