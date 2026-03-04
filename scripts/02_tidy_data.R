@@ -8,7 +8,7 @@
 ##          - Pivot staged abundance data from wide to long format
 ##          - Combine staged and unstaged data, avoiding double-counting
 ##          - Remove fish, unidentified plankton, and Foraminifera
-##
+##          - Add net tow depth (net_max_depth_m) from bongo metadata
 ## Inputs:  data/processed/01_raw_data.rds
 ## Outputs: data/processed/02_zp_merged.rds
 ################################################################################
@@ -18,6 +18,7 @@ source(here::here("scripts", "00_packages.R"))
 raw <- readRDS(here("data", "processed", "01_raw_data.rds"))
 zp             <- raw$zp
 zp_staged      <- raw$zp_staged
+bongo_metadata <- raw$bongo_metadata
 
 ## ------------------------------------------ ##
 #            Stage name mapping -----
@@ -70,6 +71,38 @@ zp_unstaged <- zp %>%
 
 # --- Combine staged and unstaged 
 zp_merged <- bind_rows(zp_unstaged, zp_long_staged)
+
+## ------------------------------------------ ##
+#            Attach tow metadata -----
+## ------------------------------------------ ##
+# adding net_max_depth_m 
+
+# sample_name uniquely identifies each tow: cruise_station_net+cast
+# Ring net cruises = "R" prefix; Bongo = "B" 
+
+ring_cruises <- c("AR28B", "AR31A", "AR34B", "AR39B", "AR61B", "AR66B")
+
+# --- add sample name column
+zp_merged <- zp_merged %>%
+  mutate(
+    net         = if_else(cruise %in% ring_cruises, "R", "B"),
+    sample_name = paste(cruise, station, paste0(net, cast), sep = "_")
+  )
+
+bongo_metadata <- bongo_metadata %>%
+  mutate(
+    net         = if_else(cruise %in% ring_cruises, "R", "B"),
+    sample_name = paste(cruise, station, paste0(net, cast), sep = "_")
+  )
+
+zp_merged <- zp_merged %>%
+  left_join(
+    bongo_metadata %>% select(sample_name, net_max_depth_m),
+    by = "sample_name"
+  ) %>%
+  relocate(sample_name, .after = cast) %>%
+  relocate(net,          .after = sample_name) %>%
+  relocate(net_max_depth_m, .after = day_night)
 
 # ----------------------------------------------------------------------------
 message("Total rows in zp_merged: ", nrow(zp_merged))
