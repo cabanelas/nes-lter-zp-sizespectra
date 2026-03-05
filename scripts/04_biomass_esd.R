@@ -55,7 +55,7 @@ zp_biomass_esd <- zp_biomass_esd %>%
 # --- Biomass range ---
 zp_biomass_esd %>%
   filter(!is.na(biomass_C_mgC_m2)) %>%
-  summarise(
+  summarize(
     min  = min(biomass_C_mgC_m2),
     mean = mean(biomass_C_mgC_m2),
     max  = max(biomass_C_mgC_m2),
@@ -66,7 +66,7 @@ zp_biomass_esd %>%
 # --- ESD range ---
 zp_biomass_esd %>%
   filter(!is.na(ESD_um)) %>%
-  summarise(
+  summarize(
     min_um    = round(min(ESD_um), 1),
     max_um    = round(max(ESD_um), 1),
     n_missing = sum(is.na(ESD_um))

@@ -240,7 +240,7 @@ zp_weights <- zp_weights %>%
 message("\n=== Carbon weight source coverage ===")
 zp_weights %>%
   group_by(final_C_source) %>%
-  summarise(
+  summarize(
     n_taxastage = n_distinct(paste(taxa_name, stage)),
     n_records   = n(),
     pct_records = round(100 * n() / nrow(zp_weights), 1),
@@ -253,7 +253,7 @@ zp_weights %>%
 message("\n=== Wet weight source coverage ===")
 zp_weights %>%
   group_by(final_WW_source) %>%
-  summarise(
+  summarize(
     n_taxastage = n_distinct(paste(taxa_name, stage)),
     n_records   = n(),
     pct_records = round(100 * n() / nrow(zp_weights), 1),
