@@ -48,6 +48,7 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 
 See `data/raw/data_dictionary.md` for column descriptions of all raw input files.  
 See `data/raw/references.bib` for literature sources for L-W regressions, mean weights, mean lengths, and DW-to-C conversions (Zotero export).
+
 ---
 
 ## Repository Structure
