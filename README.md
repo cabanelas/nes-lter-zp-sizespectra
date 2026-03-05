@@ -46,6 +46,7 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 | Published mean weights | Compiled from literature (see `data/raw/mean_weights.csv`) |
 | DW-to-C conversion factors | Compiled from literature (see `data/raw/dw_to_c_conversions.csv`) |
 
+See `data/raw/data_dictionary.md` for column descriptions of all raw input files.
 ---
 
 ## Repository Structure
@@ -64,7 +65,7 @@ nes_zp_size_spectra/
 │       └── check_biomass_esd.R     # biomass and ESD QC plots
 │       └── check_weight_coverage.R # shows which taxa + stage have which weights
 ├── data/
-│   ├── raw/                        # input CSVs (not tracked by git)
+│   ├── raw/                        # input CSVs
 │   └── processed/                  # intermediate .rds checkpoints (not tracked by git)
 ├── outputs/                        # figures and final tables
 ├── .gitignore
