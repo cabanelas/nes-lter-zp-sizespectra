@@ -79,7 +79,7 @@ nbss <- zp_binned %>%
 
 # bins per station
 nbss %>%
-  group_by(cruise, station) %>%
+  group_by(cruise, station, cast) %>%
   summarise(n_bins = n(), .groups = "drop") %>%
   pull(n_bins) %>%
   summary() %>%
@@ -90,12 +90,11 @@ nbss %>%
 ## ------------------------------------------ ##
 
 nbss_slopes <- nbss %>%
-  group_by(cruise, station) %>%
+  group_by(cruise, station, cast) %>%
   filter(n() >= 3) %>%
-  summarise(
+  reframe(
     tidy(lm(log10_Bnorm ~ log10_mid)),
-    n_bins = n(),
-    .groups = "drop"
+    n_bins = n()
   ) %>%
   filter(term == "log10_mid") %>%
   rename(
@@ -103,7 +102,7 @@ nbss_slopes <- nbss %>%
     slope_se = std.error,
     slope_p  = p.value
   ) %>%
-  select(cruise, station, slope, slope_se, slope_p, n_bins)
+  select(cruise, station, cast, slope, slope_se, slope_p, n_bins)
 
 summary(nbss_slopes$slope)
 
