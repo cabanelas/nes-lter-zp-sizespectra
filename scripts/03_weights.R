@@ -55,7 +55,8 @@ lengths_wide <- lengths %>%
     names_from  = length_mean_type,
     values_from = length_mean_um,
     names_glue  = "length_{length_mean_type}_um"
-  )
+  ) %>%
+  select(-length_NA_um)
 
 # --- Taxa/stage with no length data ---
 lengths %>%

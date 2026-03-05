@@ -70,6 +70,7 @@ nbss <- zp_binned %>%
     .groups = "drop"
   ) %>%
   mutate(
+    #mg C m-2 um-1
     B_norm_mgC_m2_um = biomass_C_mgC_m2_bin / bin_width_um, # normalize by bin width
     log10_mid        = log10(bin_mid_um),
     log10_Bnorm      = log10(B_norm_mgC_m2_um)
