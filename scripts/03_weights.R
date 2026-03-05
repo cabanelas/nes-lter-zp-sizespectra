@@ -26,7 +26,7 @@
 ##            5. Published DW  ÷  0.20
 ##            6. Published C  ÷  (%C/DW ÷ 100)  ÷  0.20
 ##
-##          WW -> DW conversion factor: 0.20 (DW ~ 20% of WW for mesozooplankton)
+##          WW -> DW conversion factor: 0.20 (DW ~ 20% of WW for mesozoop)
 ##
 ## Inputs:  data/processed/01_raw_data.rds
 ##          data/processed/02_zp_merged.rds
@@ -41,10 +41,10 @@ zp_merged <- readRDS(here("data", "processed", "02_zp_merged.rds"))
 lengths         <- raw$lengths
 LW_reg          <- raw$LW_reg
 pub_weights     <- raw$pub_weights
-DW_to_C_convert <- raw$DW_to_C_convert
+DW_to_C_convert <- raw$DW_to_C_convert %>% select(-stage_code)
 
 ## ------------------------------------------ ##
-#            STEP 1 — Lengths -----
+#            STEP 1 - Lengths -----
 ## ------------------------------------------ ##
 # --- Pivot lengths to wide format so each length type has its own column ---
 # Columns: length_PL_um, length_TL_um, length_CL_um, length_TrL_um, length_SL_um
@@ -57,7 +57,7 @@ lengths_wide <- lengths %>%
     names_glue  = "length_{length_mean_type}_um"
   )
 
-# --- Taxa/stage combos with no length data ---
+# --- Taxa/stage with no length data ---
 lengths %>%
   filter(is.na(length_mean_um)) %>%
   distinct(taxa_name, stage) %>%
@@ -65,13 +65,13 @@ lengths %>%
     else message("All taxa have at least one length value") }
 
 ## ------------------------------------------ ##
-#            STEP 2 — L-W regressions -----
+#            STEP 2 - L-W regressions -----
 ## ------------------------------------------ ##
-# for some taxa/stage/weight type, there are more than 1 regression
+# some taxa/stage/weight type have more than 1 regression
 # When duplicates exist, keep the equation whose length type matches
 # published length type (length_mean_type)
 
-# --- Length types available for each taxa/stage in our length table ---
+# --- Length types available for each taxa/stage ---
 zp_length_types <- lengths %>%
   distinct(taxa_name, stage, length_mean_type)
 
@@ -154,7 +154,7 @@ pub_weight_lookup <- zp_eqns %>%
   pivot_wider(
     names_from  = lit_weight_type,
     values_from = lit_weight_ug,
-    names_glue  = "pub_{lit_weight_type}_ug"    # pub_C_ug, pub_DW_ug, pub_WW_ug
+    names_glue  = "pub_{lit_weight_type}_ug"  # pub_C_ug, pub_DW_ug, pub_WW_ug
   )
 
 # --- Join published weights onto zp_eqns for comparison ---
@@ -200,7 +200,7 @@ zp_weights <- zp_eqns %>%
   )
 
 ## ------------------------------------------ ##
-#  STEP 6 - Derive WW (needed for ESD)  -----
+#  STEP 6 - Get WW for ESD  -----
 ## ------------------------------------------ ##
 
 zp_weights <- zp_weights %>%
@@ -208,7 +208,7 @@ zp_weights <- zp_weights %>%
     final_WW_ug = case_when(
       # 1. Direct L-W WW equation
       !is.na(WW_weight_ug) ~ WW_weight_ug,
-      # 2. L-W DW / 0.20
+      # 2. L-W DW / 0.20 -> WW
       !is.na(DW_weight_ug) ~ DW_weight_ug / 0.20,
       # 3. L-W C -> DW -> WW
       !is.na(C_weight_ug)  ~ (C_weight_ug / c_per_dw) / 0.20,

@@ -38,7 +38,7 @@ zp_staged <- read_csv(here("data", "raw",
 bongo_metadata <- read_csv(here("data", "raw",
                                 "nes-lter-zooplankton-tow-metadata-v2.csv"))
 
-# --- Zooplankton morphometrics 
+# --- Zooplankton morphometrics ------------------------
 drop_cols <- c("_source_primary", "_doi", "_location", 
                "_source_secondary", "_notes")
 

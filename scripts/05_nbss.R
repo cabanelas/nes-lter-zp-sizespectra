@@ -8,7 +8,7 @@
 ##          - log2 (octave) ESD bins
 ##          - Sum biomass per station * bin; normalize by bin width
 ##          - Fit log10-log10 linear regression per station (NBSS slope)
-##          - Plot spectra per station, mean ± SD per cruise, slope distributions
+##          - Plot spectra
 ##
 ##  NBSS normalization:
 ##    B_norm = biomass_bin / bin_width_um    [mg C m-2 um-1]
@@ -154,6 +154,27 @@ ggplot(nbss_slopes, aes(x = slope, fill = cruise)) +
   geom_vline(xintercept = -1.5, linetype = "dashed", color = "darkred") +
   labs(x = "NBSS slope",
        y = "Count") +
+  theme_bw()
+
+# --- 4) overall nbss ---
+nbss %>%
+  group_by(bin_mid_um) %>%
+  summarise(
+    mean_Bnorm = mean(B_norm_mgC_m2_um, na.rm = TRUE),
+    sd_Bnorm   = sd(B_norm_mgC_m2_um,   na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  ggplot(aes(x = bin_mid_um, y = mean_Bnorm)) +
+  geom_ribbon(aes(ymin = mean_Bnorm - sd_Bnorm,
+                  ymax = mean_Bnorm + sd_Bnorm),
+              alpha = 0.15, fill = "grey40", color = NA) +
+  geom_line(linewidth = 1, color = "grey20") +
+  geom_point(size = 2, color = "grey20") +
+  scale_x_log10(labels = scales::comma) +
+  scale_y_log10(labels = scales::comma) +
+  labs(x = "ESD (µm)",
+       y = expression("Normalized biomass (mg C m"^{-2}~"µm"^{-1}~")"),
+       title = "Overall mean NBSS (\u00b1 1 SD)") +
   theme_bw()
 
 ## ------------------------------------------ ##

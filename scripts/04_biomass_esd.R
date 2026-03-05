@@ -33,8 +33,8 @@ zp_weights <- readRDS(here("data", "processed", "03_zp_weights.rds"))
 ## ------------------------------------------ ##
 zp_biomass_esd <- zp_weights %>%
   mutate(
-    biomass_C_ug_10m2 = abundance_10m2 * final_C_ug,       # ug C / 10 m2
-    biomass_C_mgC_m2  = (biomass_C_ug_10m2 / 10) * 1e-3    # mg C / m2
+    biomass_C_ug_10m2 = abundance_10m2 * final_C_ug,    # ug C / 10 m2
+    biomass_C_mgC_m2  = (biomass_C_ug_10m2 / 10) * 1e-3 # mg C / m2
   )
 
 ## ------------------------------------------ ##

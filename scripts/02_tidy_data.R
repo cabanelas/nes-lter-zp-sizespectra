@@ -73,12 +73,14 @@ zp_unstaged <- zp %>%
 zp_merged <- bind_rows(zp_unstaged, zp_long_staged)
 
 ## ------------------------------------------ ##
-#            Attach tow metadata -----
+#            Tow metadata -----
 ## ------------------------------------------ ##
-# adding net_max_depth_m 
+# Add net_max_depth_m 
 
-# sample_name uniquely identifies each tow: cruise_station_net+cast
-# Ring net cruises = "R" prefix; Bongo = "B" 
+# sample_name == 1 tow == cruise_station_net+cast
+# Ring net = "R"; Bongo = "B" 
+# NOTE: this analysis (and abundance data) only include samples collected with 
+# 335 um mesh Bongo net 
 
 ring_cruises <- c("AR28B", "AR31A", "AR34B", "AR39B", "AR61B", "AR66B")
 
@@ -102,7 +104,8 @@ zp_merged <- zp_merged %>%
   ) %>%
   relocate(sample_name, .after = cast) %>%
   relocate(net,          .after = sample_name) %>%
-  relocate(net_max_depth_m, .after = day_night)
+  relocate(net_max_depth_m, .after = day_night) %>%
+  select(-net)
 
 # ----------------------------------------------------------------------------
 message("Total rows in zp_merged: ", nrow(zp_merged))
