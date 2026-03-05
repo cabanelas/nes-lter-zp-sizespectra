@@ -47,6 +47,7 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 | DW-to-C conversion factors | Compiled from literature (see `data/raw/dw_to_c_conversions.csv`) |
 
 See `data/raw/data_dictionary.md` for column descriptions of all raw input files.
+See `data/raw/references.bib` for literature sources for L-W regressions, mean weights, mean lengths, and DW-to-C conversions (Zotero export).
 ---
 
 ## Repository Structure
