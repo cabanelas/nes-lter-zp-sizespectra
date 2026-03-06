@@ -173,12 +173,7 @@ log10(B_norm) ~ log10(ESD_midpoint)
 
 ## Dependencies
 
-```r
-install.packages(c("here", "tidyverse", "broom", "scales", "ggrepel"))
-```
-
-R version used: 
-<!-- Add R ver here -->
+R version used: 4.5.2 (2025-10-31 ucrt)
 
 This project uses `renv` for package version management. To restore the exact environment:
 
@@ -186,6 +181,8 @@ This project uses `renv` for package version management. To restore the exact en
 install.packages("renv")
 renv::restore()
 ```
+
+> Note: `renv::restore()` will automatically install all required packages (tidyverse, broom, scales, ggrepel, here) at the correct versions.  
 
 ---
 
