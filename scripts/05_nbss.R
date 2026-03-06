@@ -64,7 +64,7 @@ print(count(zp_binned, esd_bin) %>% arrange(esd_bin))
 nbss <- zp_binned %>%
   group_by(cruise, station, cast, sample_name, net_max_depth_m,
            esd_bin, bin_min_um, bin_max_um, bin_mid_um, bin_width_um) %>%
-  summarise(
+  summarize(
     biomass_C_mgC_m2_bin = sum(biomass_C_mgC_m2, na.rm = TRUE),
     n_taxa               = n_distinct(taxa_name),
     .groups = "drop"
@@ -79,8 +79,8 @@ nbss <- zp_binned %>%
 
 # bins per station
 nbss %>%
-  group_by(cruise, station) %>%
-  summarise(n_bins = n(), .groups = "drop") %>%
+  group_by(cruise, station, cast) %>%
+  summarize(n_bins = n(), .groups = "drop") %>%
   pull(n_bins) %>%
   summary() %>%
   print()
@@ -90,12 +90,11 @@ nbss %>%
 ## ------------------------------------------ ##
 
 nbss_slopes <- nbss %>%
-  group_by(cruise, station) %>%
+  group_by(cruise, station, cast) %>%
   filter(n() >= 3) %>%
-  summarise(
+  reframe(
     tidy(lm(log10_Bnorm ~ log10_mid)),
-    n_bins = n(),
-    .groups = "drop"
+    n_bins = n()
   ) %>%
   filter(term == "log10_mid") %>%
   rename(
@@ -103,7 +102,7 @@ nbss_slopes <- nbss %>%
     slope_se = std.error,
     slope_p  = p.value
   ) %>%
-  select(cruise, station, slope, slope_se, slope_p, n_bins)
+  select(cruise, station, cast, slope, slope_se, slope_p, n_bins)
 
 summary(nbss_slopes$slope)
 
@@ -129,7 +128,7 @@ ggplot(
 # --- 2) Mean NBSS ± 1 SD per cruise ---
 nbss %>%
   group_by(cruise, bin_mid_um) %>%
-  summarise(
+  summarize(
     mean_Bnorm = mean(B_norm_mgC_m2_um, na.rm = TRUE),
     sd_Bnorm   = sd(B_norm_mgC_m2_um,   na.rm = TRUE),
     .groups = "drop"
@@ -160,7 +159,7 @@ ggplot(nbss_slopes, aes(x = slope, fill = cruise)) +
 # --- 4) overall nbss ---
 nbss %>%
   group_by(bin_mid_um) %>%
-  summarise(
+  summarize(
     mean_Bnorm = mean(B_norm_mgC_m2_um, na.rm = TRUE),
     sd_Bnorm   = sd(B_norm_mgC_m2_um,   na.rm = TRUE),
     .groups = "drop"

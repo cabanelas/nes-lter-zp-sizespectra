@@ -44,7 +44,10 @@ Size spectra analysis provides a taxonomically aggregated view of community stru
 | Published mean body lengths | Compiled from literature (see `data/raw/mean_lengths.csv`) |
 | Length-weight regressions | Compiled from literature (see `data/raw/length_weight_regressions.csv`) |
 | Published mean weights | Compiled from literature (see `data/raw/mean_weights.csv`) |
-| DW-to-C conversion factors | Compiled from literature (see `data/raw/dw_to_c_conversions.csv`) |
+| DW-to-C conversion factors | Compiled from literature (see `data/raw/dw_to_c_conversions.csv`) |  
+
+See `data/raw/data_dictionary.csv` for column descriptions of all raw input files.  
+See `data/raw/references.bib` for literature sources for L-W regressions, mean weights, mean lengths, and DW-to-C conversions (Zotero export).
 
 ---
 
@@ -64,7 +67,7 @@ nes_zp_size_spectra/
 │       └── check_biomass_esd.R     # biomass and ESD QC plots
 │       └── check_weight_coverage.R # shows which taxa + stage have which weights
 ├── data/
-│   ├── raw/                        # input CSVs (not tracked by git)
+│   ├── raw/                        # input CSVs
 │   └── processed/                  # intermediate .rds checkpoints (not tracked by git)
 ├── outputs/                        # figures and final tables
 ├── .gitignore
