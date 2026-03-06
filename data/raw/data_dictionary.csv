@@ -1,0 +1,43 @@
+file,variable_name,type,description,units,notes
+mean_lengths.csv,stage_code,character,internal code identifying the life history stage as it appears in the original abundance dataset column headers,NA,"e.g. ZOO_STAGE_024, ZOO_STAGE_023"
+mean_lengths.csv,stage,character,life history stage label,NA,"e.g. CV, CIV"
+mean_lengths.csv,taxa_name,character,taxonomic name as it appears in the NES-LTER abundance dataset,NA,NA
+mean_lengths.csv,length_mean_um,numeric,mean body length used for length-weight regression calculations,um,from literature
+mean_lengths.csv,length_mean_type,character,body measurement type used for the length value,NA,PL = prosome length; TL = total length; CL = carapace length; TrL = trunk length; SL = standard length
+mean_lengths.csv,length_source_primary,character,source for the length value; formatted as Author_Year,NA,NA
+mean_lengths.csv,length_doi,character,"DOI or reference for the primary source; formatted as a bare DOI, CIT:[citation], or URL:[website] for sources without a DOI",NA,NA
+mean_lengths.csv,length_location,character,geographic region or population from which the length value was derived,NA,NA
+mean_lengths.csv,length_source_secondary,character,"additional sources that reported similar values, cross-referenced the primary source, or provided supporting context; a single cell may contain multiple citations formatted as Author_Year",NA,NA
+mean_lengths.csv,length_notes,character,any additional notes relevant to the length value,NA,NA
+length_weight_regressions.csv,stage_code,character,internal code identifying the life history stage as it appears in the original abundance dataset column headers,NA,"e.g. ZOO_STAGE_024, ZOO_STAGE_023"
+length_weight_regressions.csv,stage,character,life history stage label,NA,"e.g. CV, CIV"
+length_weight_regressions.csv,taxa_name,character,taxonomic name as it appears in the NES-LTER abundance dataset,NA,NA
+length_weight_regressions.csv,lw_reg_eqn,character,"length-weight regression equation standardized log10(W_ug) = b * log10(L_um) + a, where W is in ug (C, DW, or WW depending on lw_reg_weight_type) and L is in um; up to three equations may exist per taxon/stage if C, DW, and WW equations were all available in the literature",NA,e.g. log10(DW_ug) = 3.264 * log10(PL_um) - 8.714
+length_weight_regressions.csv,slope_b,numeric,log10 L-W regression slope,dimensionless,NA
+length_weight_regressions.csv,int_a,numeric,log10 L-W regression intercept,log10(ug),NA
+length_weight_regressions.csv,lw_reg_length_type,character,body measurement type required as input to the regression,NA,PL = prosome length; TL = total length; CL = carapace length; TrL = trunk length; SL = standard length
+length_weight_regressions.csv,lw_reg_weight_type,character,weight currency returned by the regression,NA,C = carbon; DW = dry weight; WW = wet weight
+length_weight_regressions.csv,lw_reg_source_primary,character,source for the L-W regression; formatted as Author_Year,NA,NA
+length_weight_regressions.csv,lw_reg_doi,character,"DOI or reference for the primary source; formatted as a bare DOI, CIT:[citation], or URL:[website] for sources without a DOI",NA,NA
+length_weight_regressions.csv,lw_reg_location,character,geographic region or population for which the regression was derived,NA,NA
+length_weight_regressions.csv,lw_reg_source_secondary,character,"additional sources that reported similar values, cross-referenced the primary source, or provided supporting context; a single cell may contain multiple citations formatted as Author_Year",NA,NA
+length_weight_regressions.csv,lw_reg_notes,character,any additional notes relevant to the regression or its application,NA,NA
+mean_weights.csv,stage_code,character,internal code identifying the life history stage as it appears in the original abundance dataset column headers,NA,"e.g. ZOO_STAGE_024, ZOO_STAGE_023"
+mean_weights.csv,stage,character,life history stage label,NA,"e.g. CV, CIV"
+mean_weights.csv,taxa_name,character,taxonomic name as it appears in the NES-LTER abundance dataset,NA,NA
+mean_weights.csv,lit_weight_ug,numeric,published mean individual body weight used for gap-filling where no length-weight regression is available,ug,"C, DW, and/or WW"
+mean_weights.csv,lit_weight_type,character,weight currency of the published value,NA,C = carbon; DW = dry weight; WW = wet weight
+mean_weights.csv,weight_source_primary,character,source for the weight; formatted as Author_Year,NA,NA
+mean_weights.csv,weight_doi,character,"DOI or reference for the primary source; formatted as a bare DOI, CIT:[citation], or URL:[website] for sources without a DOI",NA,NA
+mean_weights.csv,weight_location,character,geographic region or population from which the weight value was derived,NA,NA
+mean_weights.csv,weight_source_secondary,character,"additional sources that reported similar values, cross-referenced the primary source, or provided supporting context; a single cell may contain multiple citations formatted as Author_Year",NA,NA
+mean_weights.csv,weight_notes,character,any additional notes relevant to the weight value,NA,NA
+dw_to_c_conversions.csv,stage_code,character,internal code identifying the life history stage as it appears in the original abundance dataset column headers,NA,"e.g. ZOO_STAGE_024, ZOO_STAGE_023"
+dw_to_c_conversions.csv,stage,character,life history stage label,NA,"e.g. CV, CIV"
+dw_to_c_conversions.csv,taxa_name,character,taxonomic name as it appears in the NES-LTER abundance dataset,NA,NA
+dw_to_c_conversions.csv,c_per_dw_percent,numeric,carbon content expressed as a percentage of dry weight; used to convert DW to carbon,percent %,C = DW * c_per_dw_percent / 100
+dw_to_c_conversions.csv,c_dw_source_primary,character,source for conversion factor; formatted as Author_Year,NA,NA
+dw_to_c_conversions.csv,c_dw_doi,character,"DOI or reference for the primary source; formatted as a bare DOI, CIT:[citation], or URL:[website] for sources without a DOI",NA,NA
+dw_to_c_conversions.csv,c_dw_location,character,geographic region or population from which the conversion factor was derived,NA,NA
+dw_to_c_conversions.csv,c_dw_source_secondary,character,"additional sources that reported similar values, cross-referenced the primary source, or provided supporting context; a single cell may contain multiple citations formatted as Author_Year",NA,NA
+dw_to_c_conversions.csv,c_dw_notes,character,any additional notes relevant to the weight value,NA,NA
