@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 920 820">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30 {
+        isolation: isolate;
+      }
+
+      .st0, .st31, .st32, .st21, .st23, .st33 {
+        fill: #6a5e48;
+      }
+
+      .st0, .st4, .st10, .st13, .st17, .st28 {
+        font-family: Georgia-Italic, Georgia;
+        font-style: italic;
+      }
+
+      .st0, .st8, .st21, .st27, .st30 {
+        font-size: 10px;
+      }
+
+      .st34 {
+        letter-spacing: 0em;
+      }
+
+      .st34, .st2, .st3, .st35, .st31, .st36, .st5, .st6, .st7, .st8, .st11, .st14, .st37, .st15, .st32, .st18, .st19, .st21, .st23, .st25, .st38, .st26, .st33, .st27, .st30 {
+        font-family: Georgia, Georgia;
+      }
+
+      .st1 {
+        font-size: 15px;
+      }
+
+      .st1, .st39, .st40, .st9, .st41, .st12, .st16, .st20 {
+        font-family: Georgia-Bold, Georgia;
+        font-weight: 700;
+      }
+
+      .st1, .st11 {
+        fill: #1e2838;
+      }
+
+      .st2, .st5 {
+        fill: #4a4030;
+      }
+
+      .st2, .st28 {
+        font-size: 11px;
+      }
+
+      .st42, .st37, .st15, .st27 {
+        fill: #7a8fa0;
+      }
+
+      .st43, .st44, .st45, .st46, .st47 {
+        fill: none;
+      }
+
+      .st43, .st48, .st49, .st50, .st51 {
+        stroke-width: 1.3px;
+      }
+
+      .st43, .st52, .st51 {
+        stroke: #9ab08a;
+      }
+
+      .st39, .st40, .st14, .st20 {
+        fill: #2c2416;
+      }
+
+      .st39, .st11 {
+        font-size: 13.5px;
+      }
+
+      .st53, .st54 {
+        fill: #e0e5ef;
+      }
+
+      .st53, .st54, .st55 {
+        stroke: #5a6a80;
+      }
+
+      .st53, .st55 {
+        stroke-width: 1.8px;
+      }
+
+      .st3 {
+        fill: #1e2c38;
+      }
+
+      .st3, .st6, .st40, .st9, .st12, .st14, .st18, .st20 {
+        font-size: 14px;
+      }
+
+      .st35, .st31, .st36, .st4, .st13, .st37, .st15, .st32, .st19, .st23, .st26, .st33 {
+        font-size: 12px;
+      }
+
+      .st35, .st26 {
+        fill: #7b6a53;
+      }
+
+      .st44 {
+        stroke-dasharray: 3 4;
+        stroke-width: .8px;
+      }
+
+      .st44, .st47 {
+        stroke: #d4c9b5;
+      }
+
+      .st36, .st7, .st8, .st19, .st56 {
+        fill: #7a6a52;
+      }
+
+      .st57 {
+        letter-spacing: 0em;
+      }
+
+      .st57, .st58 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .st48, .st59, .st60 {
+        stroke: #8a7a62;
+      }
+
+      .st48, .st59, .st60, .st61, .st55, .st62 {
+        fill: #fdfcfa;
+      }
+
+      .st4 {
+        fill: #4a5e38;
+      }
+
+      .st5 {
+        font-size: 18px;
+      }
+
+      .st54, .st59, .st61 {
+        stroke-width: 1.6px;
+      }
+
+      .st6, .st17, .st28 {
+        fill: #8a7a62;
+      }
+
+      .st7, .st24, .st25 {
+        font-size: 9.5px;
+      }
+
+      .st9 {
+        fill: #2c3820;
+      }
+
+      .st10, .st17 {
+        font-size: 11.5px;
+      }
+
+      .st10, .st24 {
+        fill: #3a4e5a;
+      }
+
+      .st41 {
+        font-size: 9px;
+      }
+
+      .st41, .st13, .st16, .st29 {
+        fill: #5a4e38;
+      }
+
+      .st63, .st49 {
+        fill: #f0ebe0;
+        stroke: #b8a98a;
+      }
+
+      .st12, .st18 {
+        fill: #1e2e38;
+      }
+
+      .st46 {
+        stroke: #7a6a52;
+      }
+
+      .st46, .st60 {
+        stroke-width: 1.4px;
+      }
+
+      .st32 {
+        letter-spacing: 0em;
+      }
+
+      .st16, .st29 {
+        font-size: 17px;
+      }
+
+      .st64, .st61, .st50 {
+        stroke: #7a8fa0;
+      }
+
+      .st64, .st50 {
+        fill: #e8edf2;
+      }
+
+      .st22 {
+        font-size: 10.11px;
+      }
+
+      .st22, .st25, .st30 {
+        fill: #4a6070;
+      }
+
+      .st52, .st51 {
+        fill: #edf2e8;
+      }
+
+      .st65 {
+        display: none;
+      }
+
+      .st66 {
+        fill: #f7f4ef;
+      }
+
+      .st33 {
+        letter-spacing: 0em;
+      }
+
+      .st29 {
+        font-family: Arial-Black, Arial;
+        font-weight: 800;
+      }
+
+      .st67 {
+        fill: #9ab08a;
+      }
+
+      .st62 {
+        stroke: #c8bfad;
+      }
+    </style>
+  </defs>
+  <g id="Project">
+    <g id="Layer_139">
+      <rect class="st62" width="920" height="820"/>
+      <rect class="st62" x="14" y="14" width="892" height="786.73"/>
+    </g>
+    <g id="Layer_137">
+      <text class="st16" transform="translate(42 46)"><tspan x="0" y="0">Zooplankton biomass and size spectra workflow</tspan></text>
+    </g>
+    <g id="Layer_133">
+      <text class="st6" transform="translate(137.26 76)"><tspan x="0" y="0">Data Inputs</tspan></text>
+      <text class="st6" transform="translate(472.08 76)"><tspan x="0" y="0">Processing</tspan></text>
+      <text class="st6" transform="translate(759.39 76)"><tspan x="0" y="0">Outputs</tspan></text>
+    </g>
+    <g id="Layer_20">
+      <line class="st47" x1="36" y1="54" x2="880" y2="54"/>
+      <line class="st44" x1="320" y1="62" x2="320" y2="731.18"/>
+      <line class="st44" x1="670" y1="62" x2="670" y2="731.18"/>
+      <line class="st47" x1="38" y1="743.45" x2="882" y2="743.45"/>
+    </g>
+    <g id="boxes">
+      <rect class="st51" x="42.32" y="174" width="260" height="42.32" rx="4" ry="4"/>
+      <rect class="st53" x="465.59" y="626.08" width="392" height="52" rx="4" ry="4"/>
+      <rect class="st51" x="42.32" y="305.05" width="260" height="44" rx="4" ry="4"/>
+      <rect class="st59" x="360" y="90" width="288" height="52" rx="4" ry="4"/>
+      <rect class="st50" x="684" y="90" width="200" height="52" rx="4" ry="4"/>
+      <rect class="st50" x="684" y="326" width="200" height="52" rx="4" ry="4"/>
+      <rect class="st59" x="360" y="174" width="288" height="52" rx="4" ry="4"/>
+      <rect class="st59" x="358.98" y="336" width="288" height="28.36" rx="4" ry="4"/>
+      <rect class="st48" x="465" y="278" width="74" height="44" rx="3" ry="3"/>
+      <rect class="st48" x="552" y="278" width="74" height="44" rx="3" ry="3"/>
+      <rect class="st59" x="347.55" y="423" width="144.55" height="62" rx="4" ry="4"/>
+      <rect class="st48" x="378" y="278" width="74" height="44" rx="3" ry="3"/>
+      <rect class="st59" x="512.67" y="423" width="144.55" height="62" rx="4" ry="4"/>
+      <rect class="st51" x="42.32" y="371" width="260" height="44" rx="4" ry="4"/>
+      <rect class="st51" x="42.32" y="239.11" width="260" height="44" rx="4" ry="4"/>
+      <rect class="st50" x="684" y="428.84" width="200" height="52" rx="4" ry="4"/>
+      <rect class="st59" x="362.8" y="521.55" width="287.2" height="62" rx="4" ry="4"/>
+    </g>
+    <g id="arrows">
+      <line class="st43" x1="172.32" y1="217" x2="172.32" y2="238.6"/>
+      <path class="st56" d="M506.8,162.8h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st56" d="M506.11,253.03h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <g>
+        <path class="st56" d="M349.6,111.8v8.4l11.2-4.2-11.2-4.2Z"/>
+        <line class="st46" x1="302" y1="116" x2="349.6" y2="116"/>
+      </g>
+      <line class="st46" x1="502.6" y1="141.45" x2="502.6" y2="174"/>
+      <line class="st46" x1="501.68" y1="226.73" x2="501.68" y2="259.27"/>
+      <line class="st46" x1="648.85" y1="116" x2="683.15" y2="116"/>
+      <line class="st46" x1="502.57" y1="322.85" x2="502.57" y2="334.91"/>
+      <line class="st46" x1="583.57" y1="323.06" x2="566.43" y2="334.91"/>
+      <line class="st46" x1="441.18" y1="336" x2="428.24" y2="323.06"/>
+      <line class="st43" x1="172.32" y1="284.3" x2="172.32" y2="304"/>
+      <path class="st56" d="M673.4,111.8v8.4l11.2-4.2-11.2-4.2Z"/>
+      <g>
+        <path class="st56" d="M671.82,345.98v8.4l11.2-4.2-11.2-4.2Z"/>
+        <line class="st46" x1="647.27" y1="350.18" x2="681.57" y2="350.18"/>
+      </g>
+      <line class="st43" x1="172" y1="348.14" x2="172" y2="371.86"/>
+      <g>
+        <path class="st56" d="M675.04,449.97v8.4l8.13-4.2-8.13-4.2Z"/>
+        <line class="st46" x1="657.22" y1="454.17" x2="682.12" y2="454.17"/>
+      </g>
+      <g>
+        <path class="st56" d="M504.75,387.8h-8.4l4.2,11.2,4.2-11.2Z"/>
+        <line class="st46" x1="500.55" y1="365.45" x2="500.55" y2="398"/>
+      </g>
+      <g>
+        <path class="st56" d="M429.44,507.35h-8.4l4.2,11.2,4.2-11.2Z"/>
+        <line class="st46" x1="425.24" y1="485" x2="425.24" y2="517.55"/>
+      </g>
+      <g>
+        <path class="st56" d="M590.56,506.75h-8.4l4.2,11.2,4.2-11.2Z"/>
+        <line class="st46" x1="586.36" y1="484.41" x2="586.36" y2="516.95"/>
+      </g>
+      <g>
+        <path class="st56" d="M590.56,606.17h-8.4l4.2,11.2,4.2-11.2Z"/>
+        <line class="st46" x1="586.36" y1="583.83" x2="586.36" y2="616.37"/>
+      </g>
+    </g>
+    <g id="Layer_127" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_125" class="st65">
+      <path class="st56" d="M358,116" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_121" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_119" class="st65">
+      <path class="st56" d="M682,116" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_115" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_113" class="st65">
+      <path class="st56" d="M172.32,172" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_109" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_107" class="st65">
+      <path class="st67" d="M358,200" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_103" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_101" class="st65">
+      <path class="st56" d="M504,256" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_88" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_86" class="st65">
+      <path class="st67" d="M358,300" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_84" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_82" class="st65">
+      <path class="st56" d="M489,352" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_80" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_78" class="st65">
+      <path class="st67" d="M358,362" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_74" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_72" class="st65">
+      <path class="st67" d="M358,376" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_65" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_63" class="st65">
+      <path class="st56" d="M390,472" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_62" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_60" class="st65">
+      <path class="st42" d="M660,472" marker-end="url(#arr-blue)"/>
+    </g>
+    <g id="Layer_53" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_51" class="st65">
+      <path class="st56" d="M534,505" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_43" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_41" class="st65">
+      <path class="st42" d="M790,505" marker-end="url(#arr-blue)"/>
+    </g>
+    <g id="Layer_37" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_35" class="st65">
+      <path class="st56" d="M601,578" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_34" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_32" class="st65">
+      <path class="st42" d="M842,578" marker-end="url(#arr-blue)"/>
+    </g>
+    <g id="text">
+      <text class="st9" transform="translate(81.59 192.26)"><tspan x="0" y="0">Length-weight regressions</tspan></text>
+      <text class="st4" transform="translate(93.77 209)"><tspan x="0" y="0">taxon- and stage-specific (µm)</tspan></text>
+      <text class="st20" transform="translate(407.31 196)"><tspan x="0" y="0">Length–weight regressions</tspan></text>
+      <text class="st40" transform="translate(406.82 355.81)"><tspan x="0" y="0">Conversions when needed</tspan></text>
+      <text class="st23" transform="translate(444.88 214)"><tspan x="0" y="0">log</tspan></text>
+      <text class="st31" transform="translate(460.89 218) scale(.58)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st31" transform="translate(468.19 214)"><tspan x="0" y="0">(W) = a + b · log</tspan></text>
+      <text class="st33" transform="translate(553.83 218) scale(.58)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st31" transform="translate(561.13 214)"><tspan x="0" y="0">(L)</tspan></text>
+      <text class="st28" transform="translate(417.71 272)"><tspan x="0" y="0">Calculated per weight type available</tspan></text>
+      <text class="st0" transform="translate(403.4 314)"><tspan x="0" y="0">some</tspan></text>
+      <text class="st0" transform="translate(491.03 314)"><tspan x="0" y="0">most</tspan></text>
+      <text class="st12" transform="translate(743.98 112)"><tspan x="0" y="0">Abundance</tspan></text>
+      <text class="st15" transform="translate(515.98 412.93)"><tspan x="0" y="0">Wet weight (µg WW ind</tspan></text>
+      <text class="st37" transform="translate(642.93 408.93) scale(.58)"><tspan x="0" y="0">-1</tspan></text>
+      <text class="st37" transform="translate(648.55 412.93)"><tspan x="0" y="0">)</tspan></text>
+      <text class="st8" transform="translate(552 458.4)"><tspan x="0" y="0">WW -&gt; Volume</tspan></text>
+      <text/>
+      <text class="st1" transform="translate(617.56 657.08)"><tspan x="0" y="0">NBSS slope</tspan></text>
+      <rect class="st60" x="417.89" y="762.87" width="21.45" height="22.07" rx="2" ry="2"/>
+      <rect class="st52" x="194.01" y="759.29" width="21.23" height="21.23" rx="2" ry="2"/>
+      <rect class="st63" x="53.55" y="761.9" width="21.23" height="21.23" rx="2" ry="2"/>
+      <rect class="st54" x="745.78" y="761.52" width="21.99" height="21.99" rx="2" ry="2"/>
+      <rect class="st64" x="648.65" y="762.87" width="21.45" height="21.07" rx="2" ry="2"/>
+      <text class="st5" transform="translate(218.58 778.23)"><tspan x="0" y="0">Literature</tspan></text>
+      <text class="st5" transform="translate(77.81 778.23)"><tspan x="0" y="0">Observations</tspan></text>
+      <text class="st5" transform="translate(443.84 778.7)"><tspan x="0" y="0">Processing step</tspan></text>
+      <text class="st5" transform="translate(675.26 778.23)"><tspan x="0" y="0">Output</tspan></text>
+      <text class="st5" transform="translate(772.91 778.23)"><tspan x="0" y="0">Final output</tspan></text>
+      <text class="st41" transform="translate(365 101.42)"><tspan x="0" y="0">S02</tspan></text>
+      <text class="st41" transform="translate(365 185.42)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(47.09 185.42)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(47.37 250)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(47.65 383.47)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st9" transform="translate(119.75 322)"><tspan x="0" y="0">Mean weights</tspan></text>
+      <text class="st4" transform="translate(92.01 339.5)"><tspan x="0" y="0">gap-fill where no equation exists</tspan></text>
+      <rect class="st49" x="42" y="90" width="260" height="52" rx="4" ry="4"/>
+      <text class="st41" transform="translate(46.82 101.79)"><tspan x="0" y="0">S01</tspan></text>
+      <text class="st20" transform="translate(113.7 112)"><tspan x="0" y="0">Abundance data</tspan></text>
+      <text class="st13" transform="translate(112.32 131)"><tspan x="0" y="0">335 µm Bongo net tows</tspan></text>
+      <text class="st20" transform="translate(398.8 112)"><tspan x="0" y="0">Merge unstaged and staged data</tspan></text>
+      <text class="st23" transform="translate(480.67 129.55) scale(.87 1)"><tspan x="0" y="0">ind. 10 m</tspan></text>
+      <text class="st31" transform="translate(523.86 125.55) scale(.51 .58)"><tspan x="0" y="0">-2</tspan></text>
+      <text class="st31" transform="translate(529.54 129.55) scale(.87 1)"><tspan x="0" y="0"> </tspan></text>
+      <text class="st4" transform="translate(93.77 274.04)"><tspan x="0" y="0">taxon- and stage-specific (µm)</tspan></text>
+      <text class="st4" transform="translate(100.41 407)"><tspan x="0" y="0">taxon- and stage-specific (µm)</tspan></text>
+      <text class="st9" transform="translate(119.29 258.63)"><tspan x="0" y="0">Body lengths</tspan></text>
+      <text class="st26" transform="translate(349.6 412.93)"><tspan x="0" y="0">Carbon weight (µg C ind</tspan></text>
+      <text class="st35" transform="translate(478.14 408.93) scale(.58)"><tspan x="0" y="0">-1</tspan></text>
+      <text class="st35" transform="translate(483.76 412.93)"><tspan x="0" y="0">)</tspan></text>
+      <text class="st21" transform="translate(392.03 460.73) scale(.92 1)"><tspan x="0" y="0">C × abundance</tspan></text>
+      <text class="st21" transform="translate(407.57 475.27) scale(.92 1)"><tspan x="0" y="0">mg C </tspan></text>
+      <text class="st31" transform="translate(430.61 475.27) scale(.87 1)"><tspan x="0" y="0">m</tspan></text>
+      <text class="st32" transform="translate(439.81 471.28) scale(.51 .58)"><tspan x="0" y="0">-2</tspan></text>
+      <text class="st7" transform="translate(403.48 570.36)"><tspan x="0" y="0">bin biomass by log₂ ESD &amp; normalize by bin width</tspan></text>
+      <text class="st20" transform="translate(409.99 297)"><tspan x="0" y="0">C</tspan></text>
+      <text class="st20" transform="translate(488.28 297)"><tspan x="0" y="0">DW</tspan></text>
+      <text class="st20" transform="translate(573.23 297)"><tspan x="0" y="0">WW</tspan></text>
+      <text class="st0" transform="translate(580.89 314)"><tspan x="0" y="0">few</tspan></text>
+      <text class="st9" transform="translate(75.8 393)"><tspan x="0" y="0">DW to C conversion factors</tspan></text>
+      <text class="st30" transform="translate(742.25 130)"><tspan x="0" y="0">02_zp_merged.rds</tspan></text>
+      <text class="st30" transform="translate(740.65 365.45)"><tspan x="0" y="0">03_zp_weights.rds</tspan></text>
+      <text class="st8" transform="translate(552 473.46)"><tspan x="0" y="0">Volume -&gt; ESD</tspan></text>
+      <text class="st41" transform="translate(47.93 316.17)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(352.01 432.4)"><tspan x="0" y="0">S04</tspan></text>
+      <text class="st41" transform="translate(518.63 433.22)"><tspan x="0" y="0">S04</tspan></text>
+      <text class="st30" transform="translate(732.69 471.5)"><tspan x="0" y="0">04_zp_biomass_esd.rds</tspan></text>
+      <text class="st12" transform="translate(754 350.18)"><tspan x="0" y="0">Weights</tspan></text>
+      <text class="st12" transform="translate(725.8 454.17)"><tspan x="0" y="0">Biomass &amp; ESD</tspan></text>
+      <text class="st40" transform="translate(378 550.26)"><tspan x="0" y="0">Normalized Biomass Size Spectrum</tspan></text>
+      <rect class="st50" x="684" y="526.55" width="200" height="52" rx="4" ry="4"/>
+      <g>
+        <path class="st56" d="M672.78,547.67v8.4l10.39-4.2-10.39-4.2Z"/>
+        <line class="st46" x1="650" y1="551.87" x2="681.83" y2="551.87"/>
+      </g>
+      <text class="st30" transform="translate(756.85 565.03)"><tspan x="0" y="0">05_nbss.rds</tspan></text>
+      <text class="st12" transform="translate(763.94 547.67)"><tspan x="0" y="0">NBSS</tspan></text>
+      <text class="st40" transform="translate(569.15 442.95)"><tspan x="0" y="0">ESD</tspan></text>
+      <text class="st40" transform="translate(392.39 443.22)"><tspan x="0" y="0">Biomass </tspan></text>
+      <text class="st41" transform="translate(367 532.23)"><tspan x="0" y="0">S05</tspan></text>
+    </g>
+  </g>
+  <g id="Layer_1_copy" class="st65">
+    <g id="Layer_139_copy">
+      <rect class="st66" width="920" height="820"/>
+      <rect class="st62" x="14" y="14" width="892" height="792"/>
+    </g>
+    <g id="Layer_137_copy">
+      <text class="st29" transform="translate(42 46)"><tspan x="0" y="0">Zooplankton biomass and size spectra workflow</tspan></text>
+    </g>
+    <g id="Layer_133_copy">
+      <text class="st17" transform="translate(161.26 76)"><tspan x="0" y="0">Inputs</tspan></text>
+      <text class="st17" transform="translate(472.08 76)"><tspan x="0" y="0">Processing</tspan></text>
+      <text class="st17" transform="translate(769.39 76)"><tspan x="0" y="0">Outputs</tspan></text>
+    </g>
+    <g id="Layer_20_copy">
+      <line class="st47" x1="36" y1="54" x2="880" y2="54"/>
+      <line class="st44" x1="320" y1="62" x2="320" y2="752"/>
+      <line class="st44" x1="670" y1="62" x2="670" y2="752"/>
+      <line class="st47" x1="36" y1="762" x2="880" y2="762"/>
+    </g>
+    <g id="Layer_127_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_125_copy" class="st65">
+      <path class="st56" d="M358,116" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_121_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_119_copy" class="st65">
+      <path class="st56" d="M682,116" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_115_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_113_copy" class="st65">
+      <path class="st56" d="M172.32,172" marker-end="url(#arr)"/>
+    </g>
+    <g id="boxes_copy">
+      <rect class="st51" x="42.32" y="174" width="260" height="42.32" rx="4" ry="4"/>
+      <rect class="st50" x="792" y="482" width="100" height="46" rx="4" ry="4"/>
+      <rect class="st53" x="684" y="702" width="392" height="52" rx="4" ry="4"/>
+      <rect class="st63" x="40.77" y="773" width="21.23" height="21.23" rx="2" ry="2"/>
+      <rect class="st54" x="680" y="773" width="16" height="12" rx="2" ry="2"/>
+      <rect class="st51" x="42.32" y="305.05" width="260" height="44" rx="4" ry="4"/>
+      <rect class="st49" x="42" y="90" width="260" height="52" rx="4" ry="4"/>
+      <rect class="st59" x="360" y="90" width="288" height="52" rx="4" ry="4"/>
+      <rect class="st50" x="684" y="90" width="200" height="52" rx="4" ry="4"/>
+      <rect class="st50" x="684" y="326" width="200" height="52" rx="4" ry="4"/>
+      <rect class="st64" x="560" y="773" width="16" height="12" rx="2" ry="2"/>
+      <g id="Layer_15_copy">
+        <g id="Layer_120_copy">
+          <rect class="st60" x="298.11" y="773.97" width="21.45" height="22.07" rx="2" ry="2"/>
+        </g>
+        <g id="Layer_118_copy">
+          <rect class="st52" x="179.23" y="774.39" width="21.23" height="21.23" rx="2" ry="2"/>
+        </g>
+      </g>
+      <rect class="st55" x="360" y="580" width="520" height="76" rx="4" ry="4"/>
+      <rect class="st59" x="360" y="174" width="288" height="52" rx="4" ry="4"/>
+      <rect class="st59" x="358.98" y="336" width="288" height="28.36" rx="4" ry="4"/>
+      <rect class="st48" x="465" y="278" width="74" height="44" rx="3" ry="3"/>
+      <rect class="st48" x="552" y="278" width="74" height="44" rx="3" ry="3"/>
+      <rect class="st59" x="347.55" y="408" width="144.55" height="62" rx="4" ry="4"/>
+      <rect class="st48" x="378" y="278" width="74" height="44" rx="3" ry="3"/>
+      <rect class="st61" x="512.67" y="408" width="144.55" height="62" rx="4" ry="4"/>
+      <rect class="st50" x="697.75" y="420.4" width="130" height="46" rx="4" ry="4"/>
+      <rect class="st51" x="42.32" y="371" width="260" height="44" rx="4" ry="4"/>
+      <rect class="st51" x="42.32" y="239.11" width="260" height="44" rx="4" ry="4"/>
+    </g>
+    <g id="text_copy">
+      <text class="st9" transform="translate(90.46 191)"><tspan x="0" y="0">Length-weight regressions</tspan></text>
+      <text class="st4" transform="translate(93.77 209)"><tspan x="0" y="0">taxon- and stage-specific (µm)</tspan></text>
+      <text class="st20" transform="translate(426.16 196)"><tspan x="0" y="0">Length–weight regressions</tspan></text>
+      <text class="st39" transform="translate(406.82 355.81)"><tspan x="0" y="0">Conversions when needed</tspan></text>
+      <text class="st23" transform="translate(444.88 214)"><tspan x="0" y="0">log</tspan></text>
+      <text class="st31" transform="translate(460.89 218) scale(.58)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st31" transform="translate(468.19 214)"><tspan x="0" y="0">(W) = a + b · log</tspan></text>
+      <text class="st33" transform="translate(553.83 218) scale(.58)"><tspan x="0" y="0">10</tspan></text>
+      <text class="st31" transform="translate(561.13 214)"><tspan x="0" y="0">(L)</tspan></text>
+      <text class="st28" transform="translate(417.71 272)"><tspan x="0" y="0">Calculated per weight type available</tspan></text>
+      <text class="st0" transform="translate(403.4 314)"><tspan x="0" y="0">some</tspan></text>
+      <text class="st0" transform="translate(491.03 314)"><tspan x="0" y="0">most</tspan></text>
+      <text class="st18" transform="translate(748.98 112)"><tspan x="0" y="0">Abundance</tspan></text>
+      <text class="st15" transform="translate(515.98 397.93)"><tspan x="0" y="0">Wet weight (µg WW ind</tspan></text>
+      <text class="st37" transform="translate(642.93 393.93) scale(.58)"><tspan x="0" y="0">-1</tspan></text>
+      <text class="st37" transform="translate(648.55 397.93)"><tspan x="0" y="0">)</tspan></text>
+      <text class="st27" transform="translate(552 443.4)"><tspan x="0" y="0">WW -&gt; Volume</tspan></text>
+      <text class="st10" transform="translate(822.04 744)"><tspan x="0" y="0">per station · per cruise</tspan></text>
+      <text class="st1" transform="translate(835.97 726)"><tspan x="0" y="0">NBSS slope</tspan></text>
+      <text class="st5" transform="translate(205.58 789.33)"><tspan x="0" y="0">Literature</tspan></text>
+      <text class="st5" transform="translate(65.03 789.33)"><tspan x="0" y="0">Observations</tspan></text>
+      <text class="st5" transform="translate(325.83 789.33)"><tspan x="0" y="0">Processing step</tspan></text>
+      <text class="st2" transform="translate(582 784)"><tspan x="0" y="0">Output</tspan></text>
+      <text class="st2" transform="translate(702 784)"><tspan x="0" y="0">Final output</tspan></text>
+      <text class="st41" transform="translate(46.82 101.79)"><tspan x="0" y="0">S01</tspan></text>
+      <text class="st41" transform="translate(365 101.42)"><tspan x="0" y="0">S02</tspan></text>
+      <text class="st41" transform="translate(365 185.42)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(47.09 185.42)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(47.37 256)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st41" transform="translate(47.65 383.47)"><tspan x="0" y="0">S03</tspan></text>
+      <text class="st9" transform="translate(99.96 322.5)"><tspan x="0" y="0">Mean weights</tspan></text>
+      <text class="st4" transform="translate(92.01 339.5)"><tspan x="0" y="0">gap-fill where no equation exists</tspan></text>
+      <text class="st20" transform="translate(113.7 112)"><tspan x="0" y="0">Abundance data</tspan></text>
+      <text class="st13" transform="translate(112.32 131)"><tspan x="0" y="0">335 µm Bongo net tows</tspan></text>
+      <text class="st20" transform="translate(398.8 112)"><tspan x="0" y="0">Merge unstaged and staged data</tspan></text>
+      <text class="st23" transform="translate(480.67 129.55) scale(.87 1)"><tspan x="0" y="0">ind. 10 m</tspan></text>
+      <text class="st31" transform="translate(523.86 125.55) scale(.51 .58)"><tspan x="0" y="0">-2</tspan></text>
+      <text class="st31" transform="translate(529.54 129.55) scale(.87 1)"><tspan x="0" y="0"> </tspan></text>
+      <text class="st4" transform="translate(93.77 274.04)"><tspan x="0" y="0">taxon- and stage-specific (µm)</tspan></text>
+      <text class="st4" transform="translate(100.41 407)"><tspan x="0" y="0">taxon- and stage-specific (µm)</tspan></text>
+      <text class="st9" transform="translate(100.41 256.04)"><tspan x="0" y="0">Body lengths</tspan></text>
+      <text class="st19" transform="translate(349.6 397.93)"><tspan x="0" y="0">Carbon weight (µg C ind</tspan></text>
+      <text class="st31" transform="translate(478.14 393.93) scale(.58)"><tspan x="0" y="0">-1</tspan></text>
+      <text class="st36" transform="translate(483.76 397.93)"><tspan x="0" y="0">)</tspan></text>
+      <text class="st22" transform="translate(553.44 464.37) scale(.76 1)"><tspan class="st38" x="0" y="0">ESD = (6V/π)^</tspan><tspan class="st57" x="68.59" y="0">⅓</tspan></text>
+      <text class="st14" transform="translate(399.04 426.27) scale(.92 1)"><tspan x="0" y="0">Biomass</tspan></text>
+      <text class="st21" transform="translate(392.03 442.73) scale(.92 1)"><tspan x="0" y="0">C × abundance</tspan></text>
+      <text class="st21" transform="translate(407.57 460.27) scale(.92 1)"><tspan x="0" y="0">mg C </tspan></text>
+      <text class="st31" transform="translate(430.61 460.27) scale(.87 1)"><tspan x="0" y="0">m</tspan></text>
+      <text class="st32" transform="translate(439.81 456.28) scale(.51 .58)"><tspan x="0" y="0">-2</tspan></text>
+      <text class="st25" transform="translate(835.13 520)"><tspan x="0" y="0">µm</tspan></text>
+      <text class="st11" transform="translate(514.01 604)"><tspan x="0" y="0">Normalized Biomass Size Spectrum</tspan></text>
+      <text class="st24" transform="translate(512.82 622)"><tspan class="st38" x="0" y="0">bin biomass by log₂ ESD </tspan><tspan class="st58" x="105.84" y="0">→</tspan><tspan class="st34" x="110.59" y="0" xml:space="preserve"> normalize by bin width</tspan></text>
+      <text class="st20" transform="translate(409.99 297)"><tspan x="0" y="0">C</tspan></text>
+      <text class="st20" transform="translate(488.28 297)"><tspan x="0" y="0">DW</tspan></text>
+      <text class="st20" transform="translate(573.23 297)"><tspan x="0" y="0">WW</tspan></text>
+      <text class="st0" transform="translate(580.89 314)"><tspan x="0" y="0">few</tspan></text>
+      <text class="st3" transform="translate(572.64 428.18) scale(.76 1)"><tspan x="0" y="0">ESD</tspan></text>
+      <text class="st18" transform="translate(828.26 503)"><tspan x="0" y="0">ESD</tspan></text>
+      <text class="st9" transform="translate(89.48 390)"><tspan x="0" y="0">DW to C conversion factors</tspan></text>
+      <text class="st30" transform="translate(762.25 130)"><tspan x="0" y="0">02_zp_merged.rds</tspan></text>
+      <text class="st30" transform="translate(734.15 368.79)"><tspan x="0" y="0">03_zp_weights.rds</tspan></text>
+    </g>
+    <g id="Layer_109_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_107_copy" class="st65">
+      <path class="st67" d="M358,200" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_103_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_101_copy" class="st65">
+      <path class="st56" d="M504,256" marker-end="url(#arr)"/>
+    </g>
+    <g id="arrows_copy">
+      <line class="st43" x1="172.32" y1="217" x2="172.32" y2="238.6"/>
+      <path class="st56" d="M506.8,162.8h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st67" d="M108.82,469.15v7.8l10.4-3.9-10.4-3.9Z"/>
+      <path class="st56" d="M505.11,253.03h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st67" d="M119.82,513.15v7.8l10.4-3.9-10.4-3.9Z"/>
+      <path class="st56" d="M159.44,534.66h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st67" d="M119.82,575.15v7.8l10.4-3.9-10.4-3.9Z"/>
+      <path class="st67" d="M119.82,589.15v7.8l10.4-3.9-10.4-3.9Z"/>
+      <g>
+        <path class="st56" d="M349.6,111.8v8.4l11.2-4.2-11.2-4.2Z"/>
+        <line class="st46" x1="302" y1="116" x2="349.6" y2="116"/>
+      </g>
+      <line class="st46" x1="502.6" y1="141.45" x2="502.6" y2="174"/>
+      <line class="st46" x1="501.68" y1="226.73" x2="501.68" y2="259.27"/>
+      <line class="st46" x1="648.85" y1="116" x2="683.15" y2="116"/>
+      <line class="st46" x1="502.57" y1="322.85" x2="502.57" y2="334.91"/>
+      <line class="st46" x1="583.57" y1="323.06" x2="566.43" y2="334.91"/>
+      <line class="st46" x1="441.18" y1="336" x2="428.24" y2="323.06"/>
+      <path class="st56" d="M505.11,374.19h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st42" d="M180.72,509.71h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st56" d="M130.22,522.06v8.4l11.2-4.2-11.2-4.2Z"/>
+      <path class="st42" d="M781.6,500.8v8.4l11.2-4.2-11.2-4.2Z"/>
+      <path class="st56" d="M240.99,564h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st42" d="M846.2,569.6h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <path class="st56" d="M884.2,691.6h-8.4l4.2,11.2,4.2-11.2Z"/>
+      <line class="st43" x1="172.32" y1="284.3" x2="172.32" y2="304"/>
+      <path class="st56" d="M673.4,111.8v8.4l11.2-4.2-11.2-4.2Z"/>
+      <g>
+        <path class="st56" d="M671.82,345.98v8.4l11.2-4.2-11.2-4.2Z"/>
+        <line class="st46" x1="647.27" y1="350.18" x2="681.57" y2="350.18"/>
+      </g>
+      <line class="st43" x1="172" y1="348.14" x2="172" y2="371.86"/>
+    </g>
+    <g id="Layer_88_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_86_copy" class="st65">
+      <path class="st67" d="M358,300" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_84_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_82_copy" class="st65">
+      <path class="st56" d="M489,352" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_80_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_78_copy" class="st65">
+      <path class="st67" d="M358,362" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_74_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_72_copy" class="st65">
+      <path class="st67" d="M358,376" marker-end="url(#arr-lit)"/>
+    </g>
+    <g id="Layer_65_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_63_copy" class="st65">
+      <path class="st56" d="M390,472" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_62_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_60_copy" class="st65">
+      <path class="st42" d="M660,472" marker-end="url(#arr-blue)"/>
+    </g>
+    <g id="Layer_53_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_51_copy" class="st65">
+      <path class="st56" d="M534,505" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_43_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_41_copy" class="st65">
+      <path class="st42" d="M790,505" marker-end="url(#arr-blue)"/>
+    </g>
+    <g id="Layer_37_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_35_copy" class="st65">
+      <path class="st56" d="M601,578" marker-end="url(#arr)"/>
+    </g>
+    <g id="Layer_34_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_32_copy" class="st65">
+      <path class="st42" d="M842,578" marker-end="url(#arr-blue)"/>
+    </g>
+    <g id="Layer_28_copy" class="st65">
+      <text class="st24" transform="translate(505.26 640)"><tspan class="st38" x="0" y="0">log₁₀(B_norm) ~ log₁₀(ESD_mid) </tspan><tspan class="st58" x="148.27" y="0">→</tspan><tspan class="st38" x="153.02" y="0" xml:space="preserve"> slope per station</tspan></text>
+    </g>
+    <g id="Layer_27_copy" class="st65">
+      <line class="st45" x1="880" y1="618" x2="880" y2="618"/>
+    </g>
+    <g id="Layer_26_copy" class="st65">
+      <path class="st45" d=""/>
+    </g>
+    <g id="Layer_24_copy" class="st65">
+      <path class="st56" d="M880,700" marker-end="url(#arr)"/>
+    </g>
+  </g>
+</svg>

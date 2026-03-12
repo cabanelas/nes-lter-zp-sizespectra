@@ -69,6 +69,7 @@ nes_zp_size_spectra/
 ├── data/
 │   ├── raw/                        # input CSVs
 │   └── processed/                  # intermediate .rds checkpoints (not tracked by git)
+│   └── docs/                       # NBSS workflow diagram
 ├── outputs/                        # figures and final tables
 ├── .gitignore
 └── README.md
@@ -165,6 +166,10 @@ Organisms are binned into log<sub>2</sub> (octave) ESD bins. Biomass per bin is 
 ```
 log10(B_norm) ~ log10(ESD_midpoint)
 ```
+
+### NBSS full workflow
+
+![NBSS Workflow](data/docs/nbss_workflow_diagram.svg)
 
 ---
 
