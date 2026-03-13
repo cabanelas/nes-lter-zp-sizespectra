@@ -82,7 +82,13 @@ nes_zp_size_spectra/
 1. Clone this repository
 2. Place all raw CSV files in `data/raw/` (see Data Sources above)
 3. Open R and set your working directory to the project root, or open the `.Rproj` file
-4. Run scripts in numbered order:
+4. Restore the package environment (see [Dependencies](#dependencies)):
+```r
+install.packages("renv")
+renv::restore()
+```
+
+5. Run scripts in numbered order:
 
 ```r
 source("scripts/00_packages.R")
