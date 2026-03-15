@@ -204,7 +204,6 @@ renv::restore()
 
 If you use this code, please cite:
 <!-- Add citation here -->
-> Cabanelas, A. (*year*). NES-LTER Zooplankton Size Spectra pipeline. GitHub. [URL]
 
 ---
 
