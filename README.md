@@ -22,7 +22,7 @@ The working group is pursuing three interconnected projects:
 
 1. **Normalized Biomass Size Spectra (NBSS)** = *this repository*
 2. **[Trophic Amplification](https://github.com/cabanelas/nes-lter-trophic-amp.git)**: testing whether climate-driven biomass declines are amplified at higher trophic levels and lower latitudes
-3. **[Double Integration Hypothesis](https://github.com/cabanelas/doubleintegration)**: examining how cumulative atmospheric forcing drives long-term variability in pelagic populations
+3. **[Double Integration Hypothesis](https://github.com/cabanelas/lter-double-integration.git)**: examining how cumulative atmospheric forcing drives long-term variability in pelagic populations
 
 This repository contains the **NES-LTER pipeline** for Project 1. Equivalent pipelines for the other projects are maintained in separate repositories.
 
