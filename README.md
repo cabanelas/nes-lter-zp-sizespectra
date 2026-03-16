@@ -9,7 +9,7 @@
 
 ## Working Group Context
 
-This repository is part of the a cross-site **LTER Pelagic Synthesis Working Group**: *Interannual variability and long-term change in pelagic community structure across a latitudinal gradient*. The working group brings together four marine LTER sites spanning a wide latitudinal gradient to compare how pelagic communities respond to environmental variability at annual and longer time scales:
+This repository is part of a cross-site **LTER Pelagic Synthesis Working Group**: *Interannual variability and long-term change in pelagic community structure across a latitudinal gradient*. The working group brings together four marine LTER sites spanning a wide latitudinal gradient to compare how pelagic communities respond to environmental variability at annual and longer time scales:
 
 | Site | Description |
 |------|-------------|
