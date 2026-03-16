@@ -1,8 +1,10 @@
 # NES-LTER Zooplankton Size Spectra
+### Long-Term Ecological Research (LTER) Pelagic Synthesis Working Group
+*Interannual Variability and Long-Term Change in Pelagic Community Structure Across a Latitudinal Gradient*  
 
 **Author:** Alexandra C. Cabanelas  
-**Project:** LTER Synthesis Working Group: Pelagic Community Structure  
 **LTER Site:** Northeast U.S. Shelf Long-Term Ecological Research (NES-LTER)  
+**Working group:** Pelagic Community Structure  
 **Created:** August 2024 | **Last updated:** February 2026
 
 ---
